@@ -1,0 +1,39 @@
+---
+title: "Andrea Manica"
+sortby: "1" # set it to 1 so that this card is the first, replace it with your name for alphabetic ordering
+subtitle: "Professor of Evolutionary Ecology"
+image: andrea_manica.jpg # this should be a square image, at least 250px by 250px
+started: "2020"
+toc: false
+#resources: 
+#  - "manica_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: Dept of Zoology
+      href: https://www.zoo.cam.ac.uk
+#   - icon: file-earmark-text
+#     text: vitae
+#     href: ./people/manica_cv.pdf
+    - icon: mortarboard
+      text: GScholar
+      href: https://scholar.google.com/citations?user=v8V058QAAAAJ&hl=en
+    - icon: github
+      text: GitHub
+      href: https://www.github.com/dramanica
+    - icon: envelope
+      text: Email
+      href: "mailto:am315@cam.ac.uk"
+---
+
+:::{#person-profile}
+:::
+
+## Biography
+I completed both my undergraduate and PhD here in Zoology. I then stayed on as a Junior Research Fellow at Clare College, after which I was offered a Lectureship in the department, and then a position as Reader. I am now a Professor in Evolutionary Ecology.
+
+## Research
+
+I am an evolutionary ecologist interested in understanding **how species respond and adapt to changing environments**. Work in my group spans from individual strategies (foraging strategies, group living) to evolutionary responses over long time scales (genetic adaptation, speciation). We specialise in using multiple lines of evidence to reconstruct past change, integrating climate reconstructions, paleontological and ecological datasets with genetic data to **understand the drivers and mechanisms that led to species changing their geographic ranges and their niches**

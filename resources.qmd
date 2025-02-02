@@ -1,0 +1,15 @@
+---
+title: Resources - Software and data
+listing:
+  id: resources-list
+  contents: resources/resources.yaml
+  image-align: left
+  fields: [image,title, description, categories]
+---
+
+Our work is highly interdisciplinary, and we often have to manipulate and analyse large datasets from various sources. For these big-data problems, we have developed a number of software packages (mostly in R) and curated datasets to make those tasks simpler. Follow the links below, or explore our [GitHub {{< fa brands github >}} repository](https://github.com/EvolEcolGroup).
+
+------------------------------------------------------------------------
+
+:::{#resources-list}
+:::

@@ -1,0 +1,21 @@
+[
+  {
+    "listing": "/people.html",
+    "items": [
+      "/people/andrea_manica.html",
+      "/people/margherita_colucci.html"
+    ]
+  },
+  {
+    "listing": "/papers.html",
+    "items": []
+  },
+  {
+    "listing": "/resources.html",
+    "items": []
+  },
+  {
+    "listing": "/news.html",
+    "items": []
+  }
+]

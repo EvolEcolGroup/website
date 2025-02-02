@@ -1,0 +1,32 @@
+---
+about:
+  template: marquee
+  id: about-block
+  image: "img/eeg_banner.jpg"
+  links:
+#    - icon: twitter
+#      text: Twitter
+#      href: https://twitter.com/drmanica
+    - text: "{{< fa brands bluesky >}} BlueSky"
+      href: https://bsky.app/profile/eegcam.bsky.social
+    - icon: github
+      text: Github
+      href: https://github.com/EvolEcolGroup
+    - icon: envelope
+      text: Email
+      href: "mailto:am315@cam.ac.uk"  
+---
+
+::: {#about-block}
+:::
+
+# Welcome to the Evolutionary Ecology Group
+
+**We study how animals (including our own species) respond and adapt to changing environments**. Our work
+spans from individual movement decisions (the ecological time scale) to longer term (evolutionary) 
+consequences (species range and niche changes, hybridisation, adaptation). We answer these questions 
+with sophisticated computational models that leverage big data from
+multiple lines of evidence, including tracking data, population genetics, and palaeoclimate reconstructions.
+[Read more about our work ...](./research.html)
+
+

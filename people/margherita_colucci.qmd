@@ -1,0 +1,40 @@
+---
+title: "Margherita Colucci"
+sortby: "Margherita Colucci"
+subtitle: "Postdoc - Impact of disease in early humans"
+image: margherita_colucci.jpg # this should be a square image 500px by 500px (or possibly 250px by 250px???)
+started: "2020"
+toc: false
+#resources: 
+#  - "margherita_colucci_cv.pdf"
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - icon: link
+      text: Pan-Ev website
+      href: https://www.shh.mpg.de/person/123019/1143811
+#   - icon: file-earmark-text
+#     text: vitae
+#     href: ./people/margherita_colucci_cv.pdf
+#    - icon: mortarboard
+#      text: scholar
+#      href: https://scholar.google.com/citations?user=v8V058QAAAAJ&hl=en
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/margherita-colucci-8a3b56127
+#    - icon: twitter
+#      text: twitter
+#      href: https://www.twitter.com/dramanica
+---
+
+:::{#person-profile}
+:::
+
+## Research
+
+I am apostdoctoral researcher in the Evolutionary Ecology Group, Department of Zoology, and in the Pan-African Evolution Research Group (Max Planck Institute for Geoanthropology):
+
+- Studying human local adaptation using bioinformatic models to reconstruct evolution of traits under selection (e.g. migraine, malaria spread/resistance), integrating past climate, environment, human demographies and genetics;
+
+- Focusing on tools and methods to determine biogeographical ancestry, phenotypes and kinship estimates from DNA data for both genealogical and forensic applications.

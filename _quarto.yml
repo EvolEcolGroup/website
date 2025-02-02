@@ -1,0 +1,75 @@
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+# website settings
+website:
+  title: "EEG"
+  description: "Evolutionary Ecology Group at Cambridge University"
+  favicon: img/favicon.png
+  
+  # the navigation bar at the top of the website
+  navbar:
+    pinned: true
+    logo: /img/logo.png
+    # add first level pages here
+    left:
+      - text: "Research"
+        href: research.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Papers"
+        href: papers.qmd
+      - text: "Resources"
+        href: resources.qmd
+      - text: "News"
+        href: news.qmd
+    
+    # the group social media handles
+    right:
+      - text: "{{< fa brands bluesky >}}"
+        href: https://bsky.app/profile/eegcam.bsky.social
+#      - icon: twitter
+#        href: https://twitter.com/dramanica
+      - icon: github
+        href: https://github.com/EvolEcolGroup
+      - icon: envelope
+        aria-label: email
+        href: "mailto:am315@cam.ac.uk"  
+  
+  
+
+# Add a search bar to the navbar
+  search: 
+    location: navbar
+    type: textbox
+
+# Add a footer to the website
+  page-footer: 
+    left: "[Andrea Manica](https://github.com/EvolEcolGroup) &copy; <script>document.write(new Date().getFullYear())</script>"
+    right: Designed with <img src='https://quarto.org/favicon.png' width=12>, source on <a href="https://github.com/EvolEcolGroup/website" target='_blank'><img src='https://github.com/favicon.ico' width=12></a>
+
+# do not rerender if nothing has changed
+execute:
+  freeze: true
+
+# formatting details
+format:
+  html:
+    fontsize: 1.1em
+    theme: [zephyr, "html/styles.scss"]
+#      light: zephyr
+#      dark: zephyr
+    toc: false
+    code-link: true
+    anchor-sections: true
+    email-obfuscation: javascript
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true

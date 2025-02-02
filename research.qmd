@@ -1,0 +1,70 @@
+---
+title: Research
+# images should be 1018 by 386 pixels
+---
+
+Our group is interested in understanding how animals (including our own species) respond
+to changing environments. Our work spans from the ecological (individual movement decisions, range changes)
+to the evolutionary (hybridisation, adaptation and speciation) time scale. Whilst below we
+focus on these two extremes, a number of our projects cross that artificial divide, involving
+elements of both.
+
+
+## Individual responses to changing environments
+
+<img src="./img/project_1_banner.png" style="height: 100%; width: 100%; object-fit: contain"/>
+
+Where should an albatross go to find food in huge, mostly empty sea? And how will it cope with
+the fact that this year the squid he feeds on are not in the same place as last year?
+
+In today's rapidly changing environments, individuals are faced with multiple crucial decisions in their
+lifetime that need to account for such changes, from finding food to the timing of reproduction.
+Whilst they might have been adapted to heterogeneous conditions, the pace at which their
+environment is changing keeps increasing. What strategies had they evolved to cope
+with changing environments? Do all individuals in a population use the same general strategy,
+or do individuals specialise on different strategies? And, importantly, are these
+strategies still fit for purpose given the speed of anthropogenic climate change? 
+
+Most of our work is on marine birds, in collaboration
+with the British Antarctic Survey, but we also work on other taxa, such as
+sharks, turtles and bears. We analyse huge tracking data, linking individual decisions
+to the environmental conditions they have experienced, and testing how well such
+moves "predict" the future. We also study how such decisions might put species in harms way
+by brining them into increased contact with humans.
+
+----
+
+## Metapopulation range dynamics and their consquences
+
+<img src="./img/project_2_banner.png" style="height: 100%; width: 100%; object-fit: contain" />
+
+Why are leopards in Africa almost panmictic, when their Asian counterparts show strong isolation by distance
+that has led to the designation of multiple subspecies? And why do giraffes show greater genetic population
+structure than zebras?
+
+The large environmental changes that have occurred over the glacial cycles have
+led to dramatic changes in the ranges of species, fragmenting and reconnecting their
+ranges. This metapopulation dynamics, characterised by pulses of gene flow and isolation,
+plays a key role in shaping contemporary species. However, our ability to reconstruct
+the processes that have driven this complex dynamic (and potentially our ability to
+predict how it might change in the future) is limited. 
+
+We tackle this complex
+question by combining multiple lines of evidence, including contemporary ecological surveys,
+the paleontological record, population genetic data, and paleoclimate reconstructions, to build sophisticated
+computational models which allow us to test explicitly the role of climate and
+biotic interactions in shaping the genetics of contemporary species, including our own.
+
+## Tools to interrogate big data through space and time
+
+Our work is highly interdisciplinary, and often uses huge datasets from multiple sources.
+This forces us to build efficient computational workflows that can handle data in very
+different formats. For certain projects, we also curate large datasets that collate information from
+multiple sources. We share our tools and data with the broader scientific community by
+making them open source. Check out our software and datasets on our [resources page](./resources.html).
+
+## Discover our work
+
+Have a glance at some of our recent work by watching this on-line lecture by Andrea! 
+
+Prof Andrea Manica: Lecture + Q&A ["The impact of climate on the Human Niche through time" 16 July 2021, MPI-SHH](https://vimeo.com/575810700)
