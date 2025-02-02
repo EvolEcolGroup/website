@@ -18,7 +18,7 @@ about:
 #     text: vitae
 #     href: ./people/NAME_SURNAME_cv.pdf
 #    - icon: mortarboard
-#      text: scholar
+#      text: GScholar
 #      href: https://scholar.google.com/citations?user=YOUR_ID&hl=en
 #    - icon: linkedin
 #      text: LinkedIn
