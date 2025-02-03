@@ -13,8 +13,9 @@ To add your profile to the website, please follow these steps:
 3) Make a copy of the template profile file "_template_profile.qmd", and rename it by setting your name as the file name (i.e. `firstname_lastname.qmd`).
 4) Edit the file to include your details.
 5) Add a picture of yourself in the same folder, again using your name as the file name (e.g. `firstname_lastname.png`). The picture should be square, ideally 250px by 250px.
-6) Render the quarto file to check that it looks good. Your card should be automatically added to the people page.
-7) Commit your changes and submit a pull request.
+6) If you don't already, consider having a Google Scholar profile, and include the link in your profile.
+7) Render the quarto file to check that it looks good. Your card should be automatically added to the people page.
+8) Commit your changes and submit a pull request.
 
 
 ## To add a resource

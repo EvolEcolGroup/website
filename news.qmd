@@ -2,7 +2,7 @@
 title: News
 ---
 
-We are on BlueSky {{< fa brands bluesky >}} with the handle [@eegcam.bsky.social](https://bsky.app/profile/eegcam.bsky.social). Visit it us there for all our posts and, if you find them interesting, follow us! In the mean time, you can take a peak below at our latest news:
+We are on BlueSky {{< fa brands bluesky >}} with the handle [@eegcam.bsky.social](https://bsky.app/profile/eegcam.bsky.social). Visit it us there for all our posts and, if you find them interesting, follow us! In the mean time, you can take a peak below at our latest posts:
 
 ----
 
