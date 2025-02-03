@@ -1,24 +1,8 @@
 ---
-title: 'Puplications from our group'
+title: 'Publications from our group'
 page-layout: full
 #title-block-banner: true
 date-format: 'MMMM,<br>YYYY'
-listing:
-  id: papers-list
-  contents:
-    - publications.yml
-  page-size: 20
-  sort: 'date desc'
-  type: table
-  categories: false
-  sort-ui: [date, title, journal-title] #, position, first]
-  filter-ui: [date, title, journal-title]
-  fields: [date, title, journal-title] #, first, position]
-  field-display-names:
-    date: Date
-    journal-title: Journal
-#    position: Rank
-#    first: 'First'
 ---
 
 This page provides a semi-complete list of all papers published by our
@@ -30,6 +14,9 @@ go to their profile and follow their Google Scholar link.
 ```{r bibArticle}
 #| results: asis
 #| echo: false
-scholar::format_publications("v8V058QAAAAJ", "A Manica") |> cat(sep='\n\n')
+pubs <- read.csv("./people/andrea_manica_pubs.csv", header=TRUE)
+source("./r_scripts/papers_functions.R")
+pubs_format_publications(pubs, "A Manica") |> cat(sep='\n\n')
+#scholar::format_publications("v8V058QAAAAJ", "A Manica") |> cat(sep='\n\n')
 ```
 

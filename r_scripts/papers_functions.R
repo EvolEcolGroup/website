@@ -1,4 +1,4 @@
-library(dplyr)
+suppressPackageStartupMessages(library(dplyr))
 #' Get all authors of a set of publications downloaded with get_publications
 #' 
 #' This function is a modified version of the one described in
@@ -91,7 +91,6 @@ pubs_format_publications <- function (pubs, author.name = NULL)
                                  " (", .data$year, "). ", .data$title, ". ", .data$journal, 
                                  ". ", .data$number)) %>% pull(.data$Publications)
   author.name2 <- scholar:::swap_initials(author.name)  
-  browser()
   if (is.null(author.name2)) 
     return(res)
   gsub(author.name2, paste0("**", author.name2, "**"), res)
