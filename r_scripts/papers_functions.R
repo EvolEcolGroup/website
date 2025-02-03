@@ -1,0 +1,98 @@
+library(dplyr)
+#' Get all authors of a set of publications downloaded with get_publications
+#' 
+#' This function is a modified version of the one described in
+#'  https://github.com/jkeirstead/scholar/issues/122
+#' 
+#' @param pubs A data frame of publications downloaded with get_publications
+#' @param author_id The author id of the publications
+#' @param delay The delay between requests
+#' @return A data frame with all authors of the publications
+#' 
+
+pubs_get_all_authors <- function(pubs, author_id, delay = 0.8) {
+  # make sure that we don't have duplicated pubids
+  pubs_unique <- dplyr::distinct(pubs, pubid, .keep_all = TRUE)
+  df1 <- pubs_unique %>%
+    dplyr::mutate(id = author_id)
+  df2 <- df1 %>%
+    dplyr::filter(stringr::str_detect(author, "\\.\\.\\."))
+  df3 <- df2 %>%
+    dplyr::mutate(complete_authors = purrr::map2(id, pubid, scholar::get_complete_authors, delay = 0.8, initials = TRUE))
+  df4 <- df3 %>%
+    dplyr::select(pubid, complete_authors) %>%
+    dplyr::mutate(complete_authors = base::unlist(complete_authors))
+  df5 <- dplyr::left_join(df1, df4,
+                          by = dplyr::join_by(pubid)) %>%
+    dplyr::mutate(authors = dplyr::case_when(is.na(complete_authors) ~ author, .default = complete_authors)) %>%
+    dplyr::select(-author, -complete_authors) |>
+    dplyr::rename(author = authors) |>
+    dplyr::relocate(title, author)
+  return(df5)
+}
+
+
+#' Get download URL for a set of publications downloaded with get_publications
+#' 
+#' @param pubs A data frame of publications downloaded with get_publications
+#' @param author_id The author id of the publications
+#' @param delay The delay between requests
+#' @return A data frame with all authors of the publications
+
+
+pubs_get_all_urls <- function(pubs, author_id, delay = 0.8) {
+  # make sure that we don't have duplicated pubids
+  pubs_unique <- dplyr::distinct(pubs, pubid, .keep_all = TRUE)
+  # if the url column does not exist yet, add it and set all to NA
+  if (!"url" %in% colnames(pubs_unique)) {
+    pubs_unique$url <- NA
+  }
+  # TODO get indeces of lines that have na for url
+  min_delay = delay - 0.5
+  max_delay = delay + 0.5
+  if (min_delay < 0) 
+    min_delay <- 0
+  if (delay == 0) 
+    max_delay <- 0
+  for (i in 1:nrow(pubs_unique)) {
+    if (is.na(pubs_unique$url[i])) {
+      delay <- sample(seq(min_delay, max_delay, by = 0.001), 
+                      1)
+      Sys.sleep(delay)
+      pubs_unique$url[i] <- scholar::get_publication_url(author_id, df1$pubid[i])
+    }
+  }
+  return(pubs_unique)
+}
+
+#' Format publications for a markdown/quarto file
+#' 
+#' This function is a modified version of scholar::format_publication. TODO author.name
+#' should allow for a data.frame of multiple authors with a start and end year for
+#' highlighting
+#' 
+#' @param pubs A data frame of publications downloaded with get_publications
+#' @param author.name The name of the author to highlight
+#' @return A character vector with the formatted publications
+#' 
+pubs_format_publications <- function (pubs, author.name = NULL) 
+{
+  pubs2 <- pubs %>% strsplit(x = .$author, split = ",")
+  pubs$author <- lapply(pubs2, function(x) {
+    x <- scholar:::swap_initials(x)
+    x[length(x)] <- paste0("& ", x[length(x)])
+    x <- paste0(x, collapse = ", ")
+    ifelse(startsWith(x, "& "), sub("& ", "", x), x)
+  })
+
+  res <- pubs %>% 
+    arrange(desc(.data$year)) %>% 
+    mutate(journal = paste0("*", .data$journal, "*"), Publications = paste0(.data$author, 
+                                 " (", .data$year, "). ", .data$title, ". ", .data$journal, 
+                                 ". ", .data$number)) %>% pull(.data$Publications)
+  author.name2 <- scholar:::swap_initials(author.name)  
+  browser()
+  if (is.null(author.name2)) 
+    return(res)
+  gsub(author.name2, paste0("**", author.name2, "**"), res)
+}

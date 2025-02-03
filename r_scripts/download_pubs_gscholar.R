@@ -1,56 +1,41 @@
-# Strategy
-# download all publications of a google scholar profile
-# check if any are new (not in the existing bibtex file)
-# if they are, get additional information (i.e. all authors)
-# save the new publications as a bibtex file
+# define author_id on google scholar
+author_id <- "v8V058QAAAAJ"
+author_name_surname <- "andrea_manica"
 
-
-
-# get all publications
-pubs <- scholar::get_publications("v8V058QAAAAJ")
-
+# get functions
+source("./r_scripts/papers_functions.R")
 library(dplyr)
-# function to get all authors of a set of publications downloaded with get_publications
-# from https://github.com/jkeirstead/scholar/issues/122
-get_pubs_all_authors <- function(pubs, author_id, delay = 0.8) {
-  df1 <- pubs %>%
-    dplyr::mutate(id = author_id)
-  df2 <- df1 %>%
-    dplyr::filter(stringr::str_detect(author, "\\.\\.\\."))
-  browser()
-  df3 <- df2 %>%
-    dplyr::mutate(complete_authors = purrr::map2(id, pubid, scholar::get_complete_authors, delay = 0.8, initials = TRUE))
-  df4 <- df3 %>%
-    dplyr::select(pubid, complete_authors) %>%
-    dplyr::mutate(complete_authors = base::unlist(complete_authors))
-  df5 <- dplyr::left_join(df1, df4,
-                          by = dplyr::join_by(pubid)) %>%
-    dplyr::mutate(authors = dplyr::case_when(is.na(complete_authors) ~ author, .default = complete_authors)) %>%
-    dplyr::select(-author, -complete_authors) |>
-    dplyr::rename(author = authors) |>
-    dplyr::relocate(title, author)
-  return(df5)
+
+# check if we already have a download of the publications
+pubs_csv <- file.path("./people/",paste0(author_name_surname, "_pubs.csv"))
+if (file.exists(pubs_csv)){
+  pubs <- read.csv(pubs_csv, stringsAsFactors = FALSE)
+} else {
+  pubs <- NULL
 }
 
-# get all authors of the publications
-pubs_all <- get_pubs_all_authors(pubs, author_id = "v8V058QAAAAJ")
+# download all publications of a google scholar profile
+# there is a bug in scholar where it does not seem to respect cstart and cstop
+# so we have download all of them
+new_pubs <- scholar::get_publications(author_id, sortby="year")
+# sometimes we get duplicated records from google scholar
+new_pubs <- dplyr::distinct(new_pubs, pubid, .keep_all = TRUE)
 
-# save these as a bibtex file
-# Convert to BibTeX format
-# TODO this fails as, if we don't have a journal, we get an error
+# merge new and old publications, only adding new pubs that are not already in pubs
+if (!is.null(pubs)){
+  # use anti_join to get only the new publications
+  new_pubs <- dplyr::anti_join(new_pubs, pubs, by = "pubid")
+  pubs <- dplyr::bind_rows(pubs, new_pubs)
+} else {
+  pubs <- new_pubs
+}
 
-library(RefManageR)
-bib_entries <- lapply(1:nrow(pubs_all), function(i) {
-  with(pubs_all[i, ], bibentry(bibtype = "article",
-                           key = paste("scholar", i, sep = "_"),
-                           author = author,
-                           title = title,
-                           journal = journal,
-                           year = year))#,
-                           #cid=cid,
-                           #pubid=pubid,
-                           #cites=cites))
-})
+# for any publication that does not have all authors, complete the list
+pubs_all <- pubs_get_all_authors(pubs, author_id = author_id)
 
-# Create a BibTeX file
-WriteBib(bib_entries, file = "publications.bib")
+# for any publication that does not have a url, get the url
+pubs_all <- pubs_get_all_urls(pubs_all, author_id = author_id)
+
+# save the resulting data.frame
+write.csv(pubs_all, pubs_csv, row.names = FALSE)
+

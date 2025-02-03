@@ -26,7 +26,7 @@ about:
 spans from individual movement decisions (the ecological time scale) to longer term (evolutionary) 
 consequences (species range and niche changes, hybridisation, adaptation). We answer these questions 
 with sophisticated computational models that leverage big data from
-multiple lines of evidence, including tracking data, population genetics, and palaeoclimate reconstructions.
+multiple lines of evidence, including **tracking data**, **population genetics**, and **palaeoclimate reconstructions**.
 [Read more about our work ...](./research.html)
 
 

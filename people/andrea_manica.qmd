@@ -3,7 +3,7 @@ title: "Andrea Manica"
 sortby: "1" # set it to 1 so that this card is the first, replace it with your name for alphabetic ordering
 subtitle: "Professor of Evolutionary Ecology"
 image: andrea_manica.jpg # this should be a square image, at least 250px by 250px
-started: "2020"
+started: "2005"
 toc: false
 #resources: 
 #  - "manica_cv.pdf"
@@ -32,3 +32,5 @@ about:
 :::
 
 I am an evolutionary ecologist interested in understanding **how species respond and adapt to changing environments**. Work in my group spans from individual strategies (foraging strategies, group living) to evolutionary responses over long time scales (genetic adaptation, speciation). We specialise in using multiple lines of evidence to reconstruct past change, integrating climate reconstructions, paleontological and ecological datasets with genetic data to **understand the drivers and mechanisms that led to species changing their geographic ranges and their niches**.
+
+**Keywords:** Population genetics, Selection and Adaptation, Species Distribution Models, Palaeoclimate reconstructions
