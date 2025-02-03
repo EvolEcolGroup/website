@@ -31,10 +31,5 @@ about:
 :::{#person-profile}
 :::
 
-## Biography
-
-OPTIONAL, if you don't want it, just remove this text and the title
-
-## Research
 
 DESCRIPTION OF YOUR RESEARCH.

@@ -3,12 +3,15 @@
   path: "https://evolecolgroup.github.io/pastclim/"
   categories: [R, paleoclimate]
   image: "img/pastclim_logo.png"
-  date: 1/1/2024
-  
+  date: 1/1/2023
+
 - title: "tidysdm"
-  description: "Another R package"
+  description: "`tidysdm` implements Species Distribution Models using the
+`tidymodels` framework. The advantage of `tidymodels` is that the model syntax and the results
+returned to the user are standardised, thus providing a coherent interface to
+modelling."
   path: "https://evolecolgroup.github.io/pastclim/"
-  categories: [R, paleoclimate]
-  image: "img/pastclim_logo.png"
+  categories: [R, SDM]
+  image: "img/tidysdm_logo.png"
   date: 1/1/2024
   

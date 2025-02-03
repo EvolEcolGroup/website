@@ -25,6 +25,8 @@ This page provides a semi-complete list of all papers published by our
 group. If you are interested in the publications authored by a specific group member,
 go to their profile and follow their Google Scholar link.
 
+----
+
 ```{r bibArticle}
 #| results: asis
 #| echo: false

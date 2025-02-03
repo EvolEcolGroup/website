@@ -31,9 +31,7 @@ about:
 :::{#person-profile}
 :::
 
-## Research
-
-I am apostdoctoral researcher in the Evolutionary Ecology Group, Department of Zoology, and in the Pan-African Evolution Research Group (Max Planck Institute for Geoanthropology):
+I am a postdoctoral researcher in the Evolutionary Ecology Group, Department of Zoology, and in the Pan-African Evolution Research Group (Max Planck Institute for Geoanthropology):
 
 - Studying human local adaptation using bioinformatic models to reconstruct evolution of traits under selection (e.g. migraine, malaria spread/resistance), integrating past climate, environment, human demographies and genetics;
 
