@@ -38,6 +38,7 @@ I am a postdoctoral researcher in the Evolutionary Ecology Group (Department of 
 - I am interested in the impact of disease in early human groups, focusing on human-pathogens co-evolution, and the role of infectious diseases in shaping human habitat choice. In exploring these dynamics, I consider the palaeoclimatic and epidemiological framework, and the genetic adaptation of human populations to pathogens.
 
 My research also includes:
+
 - studying human local adaptation using bioinformatic models to reconstruct evolution of traits under selection (e.g., migraine, malaria resistance mutations), integrating past climate, environment, human demographies and genetics;
 
 - focusing on tools and methods to determine biogeographical ancestry, phenotypes and kinship estimates from DNA data for both genealogical and forensic applications.
