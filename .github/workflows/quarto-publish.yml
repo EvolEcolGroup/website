@@ -45,6 +45,8 @@ jobs:
           packages: |
             any::rmarkdown
             any::knitr
+            any::dplyr
+            any::scholar
 
       # From https://github.com/julia-actions/setup-julia
       # - name: Setup Julia
