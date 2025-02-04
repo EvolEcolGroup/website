@@ -10,22 +10,21 @@ listing:
     fields: [image, title, subtitle]
     grid-item-align: center
     sort: sortby
-    field-display-names: 
-      started: "Started"
+#    field-display-names: 
+#      started: "Started"
   - id: alumni
     contents: 
       - "people/alumni/*.qmd"
       - alumni.yaml
     type: table
     sort: sortby
-    fields: [title, subtitle, started, ended]
-    sort-ui: [title, subtitle, started, ended]
-    filter-ui: [title, subtitle, started, ended]
+    fields: [title, subtitle, destination]
+#    sort-ui: [title, subtitle, destination]
+#    filter-ui: [title, subtitle, destination]
     field-display-names: 
       title: "Name"
       subtitle: "Role"
-      started: "Started"
-      ended: "Left"
+      destination: "Destination"
 ---
 
 

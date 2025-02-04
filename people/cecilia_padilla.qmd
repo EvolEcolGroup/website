@@ -1,0 +1,54 @@
+---
+title: "Cecilia Padilla-Iglesias"
+sortby: "Padilla-Iglesias Cecilia"
+subtitle: "Postdoc - Hunter-gatherer population dynamics"
+image: cecilia_padilla.jpg # this should be a square image 500px by 500px (or possibly 250px by 250px???)
+toc: false
+gscholar_id: "bQ8MC9AAAAAJ"
+eeg_start: "2021"
+papers_name: "C Padilla-Iglesias" # if you have multiple names in papers, separated them by semicolon
+#resources: 
+#  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
+about:
+  id: person-profile
+  template: jolla
+  links: # this are optional, use the ones that you are interested in
+    - icon: link
+      text: Website
+      href: https://sites.google.com/view/ceciliapadillaiglesias/
+    - icon: link
+      text: Dept of Zoology
+      href: https://www.zoo.cam.ac.uk/directory/cecilia-padilla-iglesias
+#   - icon: file-earmark-text
+#     text: vitae
+#     href: ./people/NAME_SURNAME_cv.pdf
+    - icon: mortarboard
+      text: GScholar
+      href: https://scholar.google.com/citations?user=bQ8MC9AAAAAJ&hl=en
+#    - icon: linkedin
+#      text: LinkedIn
+#      href: https://www.linkedin.com/in/YOUR_ID
+    - icon: twitter
+      text: twitter
+      href: https://x.com/padillaccc
+    - text: "{{< fa brands bluesky >}} BlueSky"
+      href: https://bsky.app/profile/ceciliapad.bsky.social
+    - icon: envelope
+      text: Email
+      href: "mailto:cp654@cam.ac.uk"
+
+---
+
+:::{#person-profile}
+:::
+
+
+I am a Research Fellow at Emmanuel College and at the Evolutionary Ecology Group. I am interested on the social and ecological **drivers of the diversity of ways in which humans live and have lived throughout our evolutionary history**. Moreover, how this diversity has shaped our genetic and cultural makeup. 
+
+To investigate these questions, I combine methods and data from population genetics, climatic reconstructions, archaeology and ethnographic research among the BaYaka hunter-gatherers in the Republic of Congo.
+
+
+
+**Keywords:** Population genetics, Behavioural ecology, Human evolutionary history, Cultural evolution
+
+

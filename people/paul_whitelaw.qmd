@@ -1,0 +1,34 @@
+---
+title: "Paul Whitelaw"
+sortby: "Whitelaw Paul"
+subtitle: "PhD student - Demography of Antarctic seabirds"
+image: paul_whitelaw.jpg # this should be a square image 250px by 250px
+toc: false
+#resources: 
+#  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
+about:
+  id: person-profile
+  template: jolla
+  links: # this are optional, use the ones that you are interested in
+    - icon: link
+      text: Dept of Zoology
+      href: https://www.zoo.cam.ac.uk
+#   - icon: file-earmark-text
+#     text: vitae
+#     href: ./people/NAME_SURNAME_cv.pdf
+#    - icon: mortarboard
+#      text: GScholar
+#      href: https://scholar.google.com/citations?user=YOUR_ID&hl=en
+#    - icon: linkedin
+#      text: LinkedIn
+#      href: https://www.linkedin.com/in/YOUR_ID
+#    - icon: twitter
+#      text: twitter
+#      href: https://www.twitter.com/YOUR_ID
+---
+
+:::{#person-profile}
+:::
+
+
+I am a PhD student at the University of Cambridge and the British Antarctic Survey. My PhD, ‘Living on the ice edge: environmental and anthropogenic factors influencing distribution and demography of Antarctic seabirds’, aims to examine the distribution, diet, ecology, demography and potential threats to the globally important populations of south polar skuas and Antarctic shags breeding near the British Antarctic Survey research station at Rothera Point (Adelaide Island) and nearby islands in Ryder Bay, Antarctic Peninsula. The project's outputs will contribute to our understanding of the structure of ice-edge food webs, and the impacts of variability and change, particularly annual changes in sea-ice extent and timing.

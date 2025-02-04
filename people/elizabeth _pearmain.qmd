@@ -1,16 +1,15 @@
 ---
 title: "Elizabeth Pearmain"
-sortby: "Elizabeth Pearmain"
+sortby: "Pearmain Elizabeth"
 subtitle: "PhD student - Seabird distribution and foraging behaviour"
-image: elizabeth_pearmain.png # this should be a square image 500px by 500px (or possibly 250px by 250px???)
-started: "2025"
+image: elizabeth_pearmain.png # this should be a square image 250px by 250px
 toc: false
 #resources: 
 #  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
 about:
   id: person-profile
   template: jolla
-  links: # this are optional, use the ones that you are interested in
+  links: # this are optional, use the ones that you are interested in (you need at least one, or you need to commone out this line as well)
     - icon: link
       text: Dept of Zoology
       href: https://www.zoo.cam.ac.uk

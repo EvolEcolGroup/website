@@ -1,9 +1,9 @@
 ---
 title: "Margherita Colucci"
-sortby: "Margherita Colucci"
+sortby: "Colucci Margherita"
 subtitle: "Postdoc - Impact of disease in early humans"
 image: margherita_colucci.jpg # this should be a square image 500px by 500px (or possibly 250px by 250px???)
-started: "2020"
+started: "2021"
 toc: false
 #resources: 
 #  - "margherita_colucci_cv.pdf"
@@ -12,8 +12,8 @@ about:
   template: jolla
   links:
     - icon: link
-      text: Pan-Ev website
-      href: https://www.shh.mpg.de/person/123019/1143811
+      text: Human Palaeosystems Research Group website
+      href: https://www.gea.mpg.de/person/123019/15613
 #   - icon: file-earmark-text
 #     text: vitae
 #     href: ./people/margherita_colucci_cv.pdf
@@ -26,13 +26,19 @@ about:
 #    - icon: twitter
 #      text: twitter
 #      href: https://www.twitter.com/dramanica
+    - text: "{{< fa brands bluesky >}} BlueSky"
+      href: https://bsky.app/profile/margheritac17.bsky.social
 ---
 
 :::{#person-profile}
 :::
 
-I am a postdoctoral researcher in the Evolutionary Ecology Group, Department of Zoology, and in the Pan-African Evolution Research Group (Max Planck Institute for Geoanthropology):
+I am a postdoctoral researcher in the Evolutionary Ecology Group (Department of Zoology) & Human Palaeosystems Research Group, Pan-Ev. at the Max Planck Institute of Geoanthropology (Jena, Germany).
 
-- Studying human local adaptation using bioinformatic models to reconstruct evolution of traits under selection (e.g. migraine, malaria spread/resistance), integrating past climate, environment, human demographies and genetics;
+- I am interested in the impact of disease in early human groups, focusing on human-pathogens co-evolution, and the role of infectious diseases in shaping human habitat choice. In exploring these dynamics, I consider the palaeoclimatic and epidemiological framework, and the genetic adaptation of human populations to pathogens.
 
-- Focusing on tools and methods to determine biogeographical ancestry, phenotypes and kinship estimates from DNA data for both genealogical and forensic applications.
+My research also includes:
+
+- studying human local adaptation using bioinformatic models to reconstruct evolution of traits under selection (e.g., migraine, malaria resistance mutations), integrating past climate, environment, human demographies and genetics;
+
+- focusing on tools and methods to determine biogeographical ancestry, phenotypes and kinship estimates from DNA data for both genealogical and forensic applications.
