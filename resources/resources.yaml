@@ -14,4 +14,10 @@ modelling."
   categories: [R, SDM]
   image: "img/tidysdm_logo.png"
   date: 1/1/2024
-  
+
+- title: "tidypopgen"
+  description: "The goal of tidypopgen is to provide a tidy grammar of population genetics, facilitating the manipulation and analysis of genetic data. Currently, it is focussed on biallelic single nucleotide polymorphisms (SNPs)."
+  path: "https://evolecolgroup.github.io/tidypopgen"
+  categories: [R, population genetics]
+  image: "img/tidypopgen_logo.png"
+  date: 1/1/2024
