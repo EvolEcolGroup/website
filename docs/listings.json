@@ -1,22 +1,14 @@
 [
   {
+    "listing": "/resources.html",
+    "items": []
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/andrea_manica.html",
       "/people/elizabeth _pearmain.html",
       "/people/margherita_colucci.html"
     ]
-  },
-  {
-    "listing": "/papers.html",
-    "items": []
-  },
-  {
-    "listing": "/resources.html",
-    "items": []
-  },
-  {
-    "listing": "/news.html",
-    "items": []
   }
 ]
