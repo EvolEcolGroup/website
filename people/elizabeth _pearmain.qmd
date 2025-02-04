@@ -1,6 +1,6 @@
 ---
 title: "Elizabeth Pearmain"
-sortby: "Elizabeth Pearmain"
+sortby: "Pearmain Elizabeth"
 subtitle: "PhD student - Seabird distribution and foraging behaviour"
 image: elizabeth_pearmain.png # this should be a square image 500px by 500px (or possibly 250px by 250px???)
 started: "2025"
