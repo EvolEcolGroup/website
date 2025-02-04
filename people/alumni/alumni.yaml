@@ -1,5 +1,6 @@
-- title: "My name"
+- title: "Name Surname"
   subtitle: "Postdoc - Something about their work"
-  started: "2020"
-  ended: "2025"
+  sortby: "Surname name"
+  destination: next job
+  link: an html link
   

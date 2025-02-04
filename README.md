@@ -10,7 +10,9 @@ served by GitHub Pages for the `main` branch.
 To add your profile to the website, please follow these steps:
 1) Clone the repository and create a new branch.
 2) Go to the `people` folder in this repository.
-3) Make a copy of the template profile file "_template_profile.qmd", and rename it by setting your name as the file name (i.e. `firstname_lastname.qmd`).
+3) Make a copy of the template profile file "_template_profile.qmd", and 
+rename it by setting your name as the file name (i.e. `firstname_lastname.qmd`). Please avoid
+capital letters, and use underscores to separate words.
 4) Edit the file to include your details.
 5) Add a picture of yourself in the same folder, again using your name as the file name (e.g. `firstname_lastname.png`). The picture should be square, ideally 250px by 250px.
 6) If you don't already, consider having a Google Scholar profile, and include the link in your profile.
