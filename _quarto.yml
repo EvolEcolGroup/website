@@ -53,7 +53,7 @@ website:
 # Add a footer to the website
   page-footer: 
     left: "[Andrea Manica](https://github.com/EvolEcolGroup) &copy; <script>document.write(new Date().getFullYear())</script>"
-    right: Designed with <img src='https://quarto.org/favicon.png' width=12>, source on <a href="https://github.com/EvolEcolGroup/website" target='_blank'><img src='https://github.com/favicon.ico' width=12></a>
+    right: Designed with <a href="https://quarto.org" target='_blank'><img src='https://quarto.org/favicon.png' width=12></a>, source on <a href="https://github.com/EvolEcolGroup/website" target='_blank'><img src='https://github.com/favicon.ico' width=12></a>
 
 # do not rerender if nothing has changed
 execute:

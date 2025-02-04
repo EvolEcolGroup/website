@@ -1,3 +1,5 @@
+suppressPackageStartupMessages(library(dplyr))
+
 # get a list of qmd files from the people directory
 qmd_files <- list.files("people", pattern = ".qmd$", full.names = TRUE)
 # remove the template file
@@ -8,7 +10,7 @@ qmd_data <- data.frame(file_csv = paste0(tools::file_path_sans_ext(qmd_files),"_
                        eeg_start = rep(NA, length(qmd_files)),
                        papers_name =rep(NA, length(qmd_files)))
 # loop over the files and extract the appropriate metadata
-for (i in seq_len(qmd_files)){
+for (i in seq_len(length(qmd_files))){
   # read the file
   lines <- readLines(qmd_files[i])
   get_meta_field <- function(field, lines){
@@ -26,6 +28,6 @@ for (i in seq_len(qmd_files)){
 }
 
 # separate the data for A Manica
-qmd_data_am <- qmd_data %>% filter(papras_name=="A Manica")
+qmd_data_am <- qmd_data %>% filter(papers_name=="A Manica")
 qmd_data <- qmd_data %>% filter(papers_name!="A Manica")
 
