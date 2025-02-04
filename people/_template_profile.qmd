@@ -4,6 +4,11 @@ sortby: "SURNAME NAME" # Note it is SURNAME first!
 subtitle: "Postdoc/PhD student - Your topic in a few words"
 image: NAME_SURNAME.jpg # this should be a square image 250px by 250px
 toc: false
+gscholar_id: "YOUR_ID"
+eeg_start: "2025"
+papers_name: "AN Other" # if you have multiple names in papers, separated them by semicolon
+
+
 #resources: 
 #  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
 about:

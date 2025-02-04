@@ -4,6 +4,7 @@ listing:
   id: resources-list
   contents: resources/resources.yaml
   image-align: left
+#  image-height: 276px
   fields: [image,title, description, categories]
 ---
 
