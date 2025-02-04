@@ -1,0 +1,44 @@
+---
+title: "Michela Leonardi"
+sortby: "Leonardi Michela"
+subtitle: "Visiting Postdoc - Ecological dynamics through space and time"
+image: michela_leonardi.jpg # this should be a square image 500px by 500px (or possibly 250px by 250px???)
+toc: false
+#resources: 
+#  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
+about:
+  id: person-profile
+  template: jolla
+  links: # this are optional, use the ones that you are interested in
+    - icon: link
+      text: personal website
+      href: https://michelaleonardi.netsons.org/
+#   - icon: file-earmark-text
+#     text: vitae
+#     href: ./people/NAME_SURNAME_cv.pdf
+    - icon: mortarboard
+      text: GScholar
+      href: https://scholar.google.it/citations?user=XvhalZsAAAAJ&hl=it
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/michela-leonardi-56776132/
+#    - icon: twitter
+#      text: twitter
+#      href: https://www.twitter.com/YOUR_ID
+---
+
+:::{#person-profile}
+:::
+
+
+I am a biodiversity modeller at the Natural History Museum, London. The aim of my project is to inform ecological restoration in Africa. At the same time, I am a visitor here in EEG where I am finalising the palaeoecological projects that I have carried when I was postdoc in the group.
+
+In my career, I have been working on various research questions focussing on animals and humans. Here are a few projects I have carried out in recent years:
+
+* Reconstruct ecological niche dynamics through time using archaeological occurrences (e.g. European ungulates, Acheulean)
+*	Development of software to perform large-scale palaeoecological analyses from archaeological data (pastclim, tidysdm)
+* Species distribution modelling through time using modern occurrences
+* How climate and migrations impacted human genetic diversity through time 
+* Ancient DNA analyses
+
+I always tried to keep the contact with the public, for example giving talks at science festivals (mostly in Italy), and doing outreach with school children. Among other activities, I have published [Climate change – the board game](https://michelaleonardi.netsons.org/climate-change-board-game/): an educational board game about climate change and evolution, that can be freely downloaded or played online.
