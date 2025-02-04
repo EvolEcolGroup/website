@@ -34,7 +34,7 @@ by brining them into increased contact with humans.
 
 ----
 
-## Metapopulation range dynamics and their consquences
+## Metapopulation range dynamics and their consequences
 
 <img src="./img/project_2_banner.png" style="height: 100%; width: 100%; object-fit: contain" />
 

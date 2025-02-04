@@ -2,7 +2,7 @@
 title: "NAME SURNAME"
 sortby: "SURNAME NAME" # Note it is SURNAME first!
 subtitle: "Postdoc/PhD student - Your topic in a few words"
-image: NAME_SURNAME.jpg # this should be a square image 250px by 250px
+image: ../img/empty_profile_icon.svg # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
 toc: false
 gscholar_id: "YOUR_ID"
 eeg_start: "2025"
