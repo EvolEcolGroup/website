@@ -1,0 +1,39 @@
+---
+title: "Andrea Vittorio Pozzi"
+sortby: "Pozzi Andrea Vittorio"
+subtitle: "PhD student - Dispersal potential in climate-sensitive species"
+image: andrea_pozzi.jpeg # this should be a square image 500px by 500px (or possibly 250px by 250px???)
+toc: false
+#resources: 
+#  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
+about:
+  id: person-profile
+  template: jolla
+  links: # this are optional, use the ones that you are interested in
+#    - icon: link
+#      text: Dept of Zoology
+#      href: https://www.zoo.cam.ac.uk
+#   - icon: file-earmark-text
+#     text: vitae
+#     href: ./people/NAME_SURNAME_cv.pdf
+    - icon: mortarboard
+      text: GScholar
+      href: https://scholar.google.co.uk/citations?user=xFcIaHsAAAAJ&hl=en
+#    - icon: linkedin
+#      text: LinkedIn
+#      href: https://www.linkedin.com/in/YOUR_ID
+#    - icon: twitter
+#      text: twitter
+#      href: https://www.twitter.com/YOUR_ID
+    - icon: github
+      text: GitHub
+      href: https://github.com/avpozzi
+---
+
+:::{#person-profile}
+:::
+
+
+I am a PhD student at the Evolutionary Ecology Group at Cambridge. My research focuses on how climate has affected and will continue to affect dispersal patterns in the adder (*Vipera berus*). 
+
+I was previously based at the University of Bangor where I investigated patterns of genetic health in UK adders for my MReS, and explored the presence of cryptic species in eastern African vipers for my BSc. 
