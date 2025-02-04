@@ -3,7 +3,6 @@ title: "Paul Whitelaw"
 sortby: "Whitelaw Paul"
 subtitle: "PhD student - Demography of Antarctic seabirds"
 image: paul_whitelaw.jpg # this should be a square image 250px by 250px
-started: "2021"
 toc: false
 #resources: 
 #  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
