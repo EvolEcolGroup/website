@@ -38,6 +38,14 @@ jobs:
       - name: Setup R
         uses: r-lib/actions/setup-r@v2
 
+      - name: Install packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          cache-version: 2
+          packages: |
+            any::rmarkdown
+            any::knitr
+
       # From https://github.com/julia-actions/setup-julia
       # - name: Setup Julia
       #   uses: julia-actions/setup-julia@v1
