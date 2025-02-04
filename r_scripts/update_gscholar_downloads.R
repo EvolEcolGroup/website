@@ -25,5 +25,7 @@ for (i in seq_len(qmd_files)){
   qmd_data$papers_name[i] <- get_meta_field("papers_name", lines)
 }
 
-# update the csv files
+# separate the data for A Manica
+qmd_data_am <- qmd_data %>% filter(papras_name=="A Manica")
+qmd_data <- qmd_data %>% filter(papers_name!="A Manica")
 

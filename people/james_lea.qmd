@@ -1,0 +1,49 @@
+---
+title: "James Lea"
+sortby: "Lea James" # Note it is SURNAME first!
+subtitle: "Visiting Researcher - CEO of Save Our Seas"
+image: james_lea.jpg # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
+toc: false
+#gscholar_id: "YOUR_ID"
+eeg_start: "2019"
+papers_name: "JSE Lea" # if you have multiple names in papers, separated them by semicolon
+
+
+#resources: 
+#  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
+about:
+  id: person-profile
+  template: jolla
+  links:  # this are optional, use the ones that you are interested in (you need at least one, or you need to commone out this line as well)
+    - icon: link
+      text: Save Our Seas
+      href: https://saveourseas.com/
+#   - icon: file-earmark-text
+#     text: vitae
+#     href: ./people/NAME_SURNAME_cv.pdf
+#    - icon: mortarboard
+#      text: GScholar
+#      href: https://scholar.google.com/citations?user=YOUR_ID&hl=en
+#    - icon: linkedin
+#      text: LinkedIn
+#      href: https://www.linkedin.com/in/YOUR_ID
+#    - icon: twitter
+#      text: twitter
+#      href: https://www.twitter.com/YOUR_ID
+#    - text: "{{< fa brands bluesky >}} BlueSky"
+#      href: https://bsky.app/profile/YOUR_ID
+
+---
+
+:::{#person-profile}
+:::
+
+
+James is the chief executive officer of the Save Our Seas Foundation.
+
+He has had a fascination for the marine realm from a young age and it was this that sparked his ambition to explore the oceans. Having been humbled by encounters with various shark species, he became keen to learn as much as he could about their behaviour and ecology. James gained a first-class Honours degree in biological sciences from the University of Oxford and then volunteered as a shark researcher at the Bimini Biological Field Station. At Bimini he cut his teeth catching, tagging and tracking sharks, and working with them so closely consolidated his passion and further motivated him to fight for marine conservation.
+
+James then moved to work as a research scientist for the Save Our Seas Foundation, before completing a PhD in marine biology at the University of Plymouth in collaboration with the D’Arros Research Centre. His primary research focus was a comprehensive tagging programme tracking almost 200 sharks of seven different species in Seychelles, aiming to determine the factors that drive their movement behaviour and use this knowledge to inform effective conservation strategies. James’ research has helped to contribute to the design of marine protected areas and has revealed previously unknown open ocean migrations of tiger and bull sharks, highlighting the challenge of managing shark populations that span ocean basins. He continues his research as part of the Evolutionary Ecology Group at the University of Cambridge.
+
+James fully realises the importance of actively promoting awareness of marine conservation issues, so he is particularly excited to lead the Save Our Sea Foundation team to help ensure that we can live with healthy oceans for generations to come.
+

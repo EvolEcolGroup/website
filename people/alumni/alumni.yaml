@@ -25,7 +25,7 @@
 - title: "Dave Daversa"
   subtitle: "PhD student"
   sortby: "Daversa Dave"
-  destination: "Postdoc in the USA"
+  destination: "Postdoc at Liverpool University"
 #  link: an html link
   
 - title: "Anders Eriksson"
@@ -67,7 +67,7 @@
 - title: "Mario Krapp"
   subtitle: "Postdoc"
   sortby: "Krapp Mario"
-  destination: "Postdoc in New Zealand"
+  destination: "Research Fellow in New Zealand"
 #  link: an html link
 
 - title: "Thorfinn Korneliussen"
@@ -103,7 +103,7 @@
 - title: "Gerrit Nanninga"
   subtitle: "Marie Curie Postdoctoral Fellow"
   sortby: "Nanninga Gerrit"
-  destination: next job
+  destination: "Lecturer at Essex University"
 #  link: an html link
 
 - title: "Mikkel Winther Pedersen"
@@ -145,7 +145,7 @@
 - title: "Vera Warmuth"
   subtitle: "PhD student"
   sortby: "Warmuth Vera"
-#  destination: next job
+  destination: "Postdoc at University College London"
 #  link: an html link
 
 - title: "Cat Horswill"
@@ -175,7 +175,7 @@
 - title: "James Kennerley"
   subtitle: "PhD student"
   sortby: "Kennerley James"
-  destination: "Postdoc at Cornell Lab of Ornithology"
+  destination: "Research Fellow at Cornell Lab of Ornithology"
 #  link: an html link
 
 - title: "Marianna Fusco"
@@ -187,7 +187,7 @@
 - title: "Paul Breeze"
   subtitle: "Postdoc"
   sortby: "Breeze Paul"
-#  destination: next job
+  destination: "Lecturer at King's College London"
 #  link: an html link
 
 - title: "Anahit Hovhannisyan"
@@ -205,7 +205,7 @@
 - title: "Iseult Jackson"
   subtitle: "Visiting PhD student"
   sortby: "Jackson Iseult"
-#  destination: next job
+  destination: "Postdoc at Max Planck Institute for Evolutionary Anthropology"
 #  link: an html link
 
 # - title: "Name Surname"

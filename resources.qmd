@@ -3,6 +3,7 @@ title: Resources - Software and data
 listing:
   id: resources-list
   contents: resources/resources.yaml
+  categories: true
   image-align: left
 #  image-height: 276px
   fields: [image,title, description, categories]
