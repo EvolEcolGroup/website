@@ -27,7 +27,12 @@ for (i in seq_len(length(qmd_files))){
   qmd_data$papers_name[i] <- get_meta_field("papers_name", lines)
 }
 
-# separate the data for A Manica
-qmd_data_am <- qmd_data %>% filter(papers_name=="A Manica")
-qmd_data <- qmd_data %>% filter(papers_name!="A Manica")
+# Now add cosupervised and alumni
+cosup_yaml <- yaml::read_yaml("people/cosupervised.yaml")
+cosup_df <- df <- do.call(dplyr::bind_rows, lapply(cosup_yaml, as.data.frame))
+alumni_yaml <- yaml::read_yaml("people/alumni/alumni.yaml")
+alumni_df <- df <- do.call(dplyr::bind_rows, lapply(alumni_yaml, as.data.frame))
+
+# combine the data
+qmd_data <- dplyr::bind_rows(qmd_data, cosup_df, alumni_df)
 
