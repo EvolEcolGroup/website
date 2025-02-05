@@ -1,7 +1,7 @@
 ---
 title: "James Lea"
 sortby: "Lea James" # Note it is SURNAME first!
-subtitle: "Visiting Researcher - CEO of Save Our Seas"
+subtitle: "Visiting Researcher & CEO of Save Our Seas -  Shark ecology"
 image: james_lea.jpg # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
 toc: false
 #gscholar_id: "YOUR_ID"

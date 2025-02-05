@@ -3,7 +3,9 @@ title: "People"
 toc: false
 listing:
   - id: group-members
-    contents: "people/*.qmd"
+    contents: 
+      - "people/*.qmd"
+      - "people/cosupervised.yaml"
     type: grid
     image-height: 250px
     grid-columns: 3
