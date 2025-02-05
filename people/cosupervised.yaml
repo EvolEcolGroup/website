@@ -3,7 +3,6 @@
   sortby: "Stephenson Nile"
   image: "people/nile_stephenson.jpg"
   path: "https:://www.zoo.cam.ac.uk"
-#  caption: "[Visit website](https://example.com)"
   eeg_start: "2022"
   
 - title: "Ming Khan"
@@ -11,5 +10,4 @@
   sortby: "Kahn Ming"
   image: "people/ming_khan.png"
   path: "https:://www.zoo.cam.ac.uk"
-#  caption: "[Visit website](https://example.com)"
   eeg_start: "2022"

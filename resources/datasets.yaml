@@ -1,0 +1,13 @@
+- title: "palaeoclimate reconstructions"
+  description: "We have curated several time series of palaeoclimate reconstructions (e.g. Beyer et al. 2020 and Krapp et al. 2021). The easiest way to access these data is to use `pastclim`, but the raw data are also available from the repositories associated with those publications"
+  path: "https://evolecolgroup.github.io/pastclim/"
+  categories: [R, paleoclimate]
+  image: "img/pastclim_logo.png"
+  date: 1/1/2023
+
+- title: "Ice sheet reconstructions"
+  description: "We generated estimates of extents of icesheets during the Quaternary, with maps for every glaciation in [Batchelor et al. 2019](https://www.nature.com/articles/s41467-019-11601-2) "
+  path: "https://evolecolgroup.github.io/pastclim/"
+  categories: [ice sheets, palaeoclimate]
+  image: "img/ice_sheets.png"
+  date: 1/1/2024
