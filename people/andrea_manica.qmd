@@ -13,9 +13,6 @@ about:
   id: person-profile
   template: jolla
   links:
-    - icon: link
-      text: Dept of Zoology
-      href: https://www.zoo.cam.ac.uk
 #   - icon: file-earmark-text
 #     text: vitae
 #     href: ./people/manica_cv.pdf
@@ -28,6 +25,9 @@ about:
     - icon: envelope
       text: Email
       href: "mailto:am315@cam.ac.uk"
+    - icon: link
+      text: Dept. of Zoology, Cambridge
+      href: https://www.zoo.cam.ac.uk
 ---
 
 :::{#person-profile}

@@ -1,7 +1,7 @@
 - title: "pastclim"
   description: "An R library  designed to provide an easy way to extract and manipulate palaeoclimate reconstructions for ecological and anthropological analyses. It is also able to handle time series of future reconstructions."
   path: "https://evolecolgroup.github.io/pastclim/"
-  categories: [R, paleoclimate]
+  categories: [R, palaeoclimate]
   image: "img/pastclim_logo.png"
   date: 1/1/2023
 

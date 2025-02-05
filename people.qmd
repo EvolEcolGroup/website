@@ -15,7 +15,7 @@ listing:
   - id: alumni
     contents: 
       - "people/alumni/*.qmd"
-      - alumni.yaml
+      - "people/alumni/alumni.yaml"
     type: table
     sort: sortby
     fields: [title, subtitle, destination]

@@ -14,7 +14,11 @@ about:
       href: https://github.com/EvolEcolGroup
     - icon: envelope
       text: Email
-      href: "mailto:am315@cam.ac.uk"  
+      href: "mailto:am315@cam.ac.uk"
+    - icon: link
+      text: Dept. of Zoology, Cambridge
+      href: https://www.zoo.cam.ac.uk
+
 ---
 
 ::: {#about-block}
@@ -25,7 +29,7 @@ about:
 **We study how animals (including our own species) respond and adapt to changing environments**. Our work
 spans from individual movement decisions (the ecological time scale) to longer term (evolutionary) 
 consequences (species range and niche changes, hybridisation, adaptation). We answer these questions 
-with sophisticated computational models that leverage big data from
+with sophisticated computational models that leverage **big data** from
 multiple lines of evidence, including **tracking data**, **population genetics**, and **palaeoclimate reconstructions**.
 [Read more about our work ...](./research.html)
 

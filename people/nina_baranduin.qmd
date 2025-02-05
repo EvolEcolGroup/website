@@ -1,0 +1,44 @@
+---
+title: "Nina Baranduin"
+sortby: "Baranduin Nina" # Note it is SURNAME first!
+subtitle: "PhD student - Human wildlife conflict"
+image: nina_baranduin.png # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
+toc: false
+#gscholar_id: "YOUR_ID"
+eeg_start: "2024"
+papers_name: "N Baranduin" # if you have multiple names in papers, separated them by semicolon
+
+
+#resources: 
+#  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
+about:
+  id: person-profile
+  template: jolla
+  links:  # this are optional, use the ones that you are interested in (you need at least one, or you need to commone out this line as well)
+    - icon: link
+      text: Dept. of Zoology, Cambridge
+      href: https://www.zoo.cam.ac.uk
+#   - icon: file-earmark-text
+#     text: vitae
+#     href: ./people/NAME_SURNAME_cv.pdf
+#    - icon: mortarboard
+#      text: GScholar
+#      href: https://scholar.google.com/citations?user=YOUR_ID&hl=en
+#    - icon: linkedin
+#      text: LinkedIn
+#      href: https://www.linkedin.com/in/YOUR_ID
+#    - icon: twitter
+#      text: twitter
+#      href: https://www.twitter.com/YOUR_ID
+#    - text: "{{< fa brands bluesky >}} BlueSky"
+#      href: https://bsky.app/profile/YOUR_ID
+
+---
+
+:::{#person-profile}
+:::
+
+
+In 2023 I completed my bachelor's degree in Ecology and Conservation at Nottingham Trent University. Throughout my undergraduate degree I used machine learning to investigate phototaxis in marine plankton, model peat depth, and to track the movement of pollinators. Geographical information systems were also routinely used in many of my other projects such as vegetation and landscape classification surveys, wild boar surveys, and freshwater quality investigations. I am particularly interested in exploring the ways that AI can be used within ecology, especially its use to aid evidence-based conservation efforts.  
+
+Many of my interests revolve around science communication, as I often make infographics and animations that cover a wide range of topics in nature; as well as volunteering for habitat management groups which include teaching children about plants and invertebrates. 
