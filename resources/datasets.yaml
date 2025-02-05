@@ -1,13 +1,20 @@
 - title: "Palaeoclimate reconstructions"
-  description: "We have curated several time series of palaeoclimate reconstructions (e.g. Beyer et al. 2020 and Krapp et al. 2021). The easiest way to access these data is to use `pastclim`, but the raw data are also available from the repositories associated with those publications"
+  description: "We have curated several time series of palaeoclimate reconstructions (e.g. Beyer et al. 2020 and Krapp et al. 2021). The easiest way to access these data is to use `pastclim`, but the raw data are also available from the repositories associated with those publications. See the `pastclim` website for details."
   path: "https://evolecolgroup.github.io/pastclim/"
   categories: [R, palaeoclimate]
-  image: "img/pastclim_logo.png"
+  image: "img/climate_maps.jpg"
   date: 1/1/2023
 
 - title: "Ice sheet reconstructions"
-  description: "We generated estimates of extents of icesheets during the Quaternary, with maps for every glaciation in [Batchelor et al. 2019](https://www.nature.com/articles/s41467-019-11601-2) "
-  path: "https://evolecolgroup.github.io/pastclim/"
+  description: "We generated estimates of extents of ice sheets during the Quaternary, with maps for every glaciation in Batchelor et al. 2019"
+  path: "https://www.nature.com/articles/s41467-019-11601-2"
   categories: [ice sheets, palaeoclimate]
   image: "img/ice_sheets.png"
+  date: 1/1/2024
+
+- title: "Modern and ancient high-coverage human genomes "
+  description: "A curated dataset of high-coverage shotgun data for population genomics modelling, from Maisano Delser et al. 2021"
+  path: "https://www.nature.com/articles/s41597-021-00980-1"
+  categories: [ice sheets, palaeoclimate]
+  image: "img/genomes_map.png"
   date: 1/1/2024
