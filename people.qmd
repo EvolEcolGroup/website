@@ -19,8 +19,8 @@ listing:
     type: table
     sort: sortby
     fields: [title, subtitle, destination]
-#    sort-ui: [title, subtitle, destination]
-#    filter-ui: [title, subtitle, destination]
+    sort-ui: false
+    filter-ui: false
     field-display-names: 
       title: "Name"
       subtitle: "Role"
