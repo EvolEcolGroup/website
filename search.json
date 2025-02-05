@@ -53,7 +53,21 @@
     "href": "resources.html",
     "title": "Resources - Software and data",
     "section": "",
-    "text": "Our work is highly interdisciplinary, and we often have to manipulate and analyse large datasets from various sources. For these big-data problems, we have developed a number of software packages (mostly in ) and curated datasets to make those tasks simpler. Follow the links below, or explore our GitHub  repositories.\n\n\n\n\n\n\n\n\n\n\n\npastclim\n\n\n\n\n\n\nR\n\n\npaleoclimate\n\n\n\nAn R library designed to provide an easy way to extract and manipulate palaeoclimate reconstructions for ecological and anthropological analyses. It is also able to handle time series of future reconstructions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntidysdm\n\n\n\n\n\n\nR\n\n\nSDM\n\n\n\ntidysdm implements Species Distribution Models using the tidymodels framework. The advantage of tidymodels is that the model syntax and the results returned to the user are standardised, thus providing a coherent interface to modelling.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntidypopgen\n\n\n\n\n\n\nR\n\n\npopulation genetics\n\n\n\ntidypopgen provides a tidy grammar of population genetics, facilitating the manipulation and analysis of genetic data. Currently, it is focussed on biallelic single nucleotide polymorphisms (SNPs).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngeoGraph\n\n\n\n\n\n\nR\n\n\npopulation genetics\n\n\ngraph theory\n\n\n\ngeoGraph implements graph approaches for geographic data, allowing to estimate distance costs and find shortest paths on complex geographic graphs.\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Our work is highly interdisciplinary, and we often have to manipulate and analyse large datasets from various sources. For these big-data problems, we have developed a number of software packages (mostly in ) and curated datasets to make those tasks simpler. Follow the links below, or explore our GitHub  repositories."
+  },
+  {
+    "objectID": "resources.html#software",
+    "href": "resources.html#software",
+    "title": "Resources - Software and data",
+    "section": "Software",
+    "text": "Software\n\n\n\n\n\n\n\n\n\n\npastclim\n\n\n\n\n\n\nR\n\n\npaleoclimate\n\n\n\nAn R library designed to provide an easy way to extract and manipulate palaeoclimate reconstructions for ecological and anthropological analyses. It is also able to handle time series of future reconstructions.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntidysdm\n\n\n\n\n\n\nR\n\n\nSDM\n\n\n\ntidysdm implements Species Distribution Models using the tidymodels framework. The advantage of tidymodels is that the model syntax and the results returned to the user are standardised, thus providing a coherent interface to modelling.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ntidypopgen\n\n\n\n\n\n\nR\n\n\npopulation genetics\n\n\n\ntidypopgen provides a tidy grammar of population genetics, facilitating the manipulation and analysis of genetic data. Currently, it is focussed on biallelic single nucleotide polymorphisms (SNPs).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngeoGraph\n\n\n\n\n\n\nR\n\n\npopulation genetics\n\n\ngraph theory\n\n\n\ngeoGraph implements graph approaches for geographic data, allowing to estimate distance costs and find shortest paths on complex geographic graphs.\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "resources.html#datasets",
+    "href": "resources.html#datasets",
+    "title": "Resources - Software and data",
+    "section": "Datasets",
+    "text": "Datasets\n\n\n\n\n\n\n\n\n\n\npalaeoclimate reconstructions\n\n\n\n\n\n\nR\n\n\npaleoclimate\n\n\n\nWe have curated several time series of palaeoclimate reconstructions (e.g. Beyer et al. 2020 and Krapp et al. 2021). The easiest way to access these data is to use pastclim, but the raw data are also available from the repositories associated with those publications\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIce sheet reconstructions\n\n\n\n\n\n\nice sheets\n\n\npalaeoclimate\n\n\n\nWe generated estimates of extents of icesheets during the Quaternary, with maps for every glaciation in Batchelor et al. 2019 \n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "people/evie_carter.html",

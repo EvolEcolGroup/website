@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-resources-list .list');
+    const listingTargetEl = window.document.querySelector('#listing-software-list .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -85,7 +85,35 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-resources-list'] = new List('listing-resources-list', options);
+    window['quarto-listings']['listing-software-list'] = new List('listing-software-list', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-datasets-list .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-description","listing-categories","listing-image","listing-date"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-datasets-list'] = new List('listing-datasets-list', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -199,7 +227,7 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(4)</span></div><div class="category" data-category="U0RN">SDM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3JhcGglMjB0aGVvcnk=">graph theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGFsZW9jbGltYXRl">paleoclimate <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9wdWxhdGlvbiUyMGdlbmV0aWNz">population genetics <span class="quarto-category-count">(2)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(5)</span></div><div class="category" data-category="U0RN">SDM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3JhcGglMjB0aGVvcnk=">graph theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="aWNlJTIwc2hlZXRz">ice sheets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGFsYWVvY2xpbWF0ZQ==">palaeoclimate <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGFsZW9jbGltYXRl">paleoclimate <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cG9wdWxhdGlvbiUyMGdlbmV0aWNz">population genetics <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -224,7 +252,9 @@ window.Quarto = {
 
 <p>Our work is highly interdisciplinary, and we often have to manipulate and analyse large datasets from various sources. For these big-data problems, we have developed a number of software packages (mostly in <i class="fa-brands fa-r-project" aria-label="r-project"></i>) and curated datasets to make those tasks simpler. Follow the links below, or explore our <a href="https://github.com/EvolEcolGroup">GitHub <i class="fa-brands fa-github" aria-label="github"></i> repositories</a>.</p>
 <hr>
-<div id="listing-resources-list" class="quarto-listing quarto-listing-container-default">
+<section id="software" class="level2">
+<h2 class="anchored" data-anchor-id="software">Software</h2>
+<div id="listing-software-list" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
 <div class="quarto-post image-left" data-index="0" data-categories="UiUyQ3BhbGVvY2xpbWF0ZQ==" data-listing-date-sort="1672531200000">
 <div class="thumbnail">
@@ -354,9 +384,80 @@ graph theory
 No matching items
 </div>
 </div>
+</section>
+<section id="datasets" class="level2">
+<h2 class="anchored" data-anchor-id="datasets">Datasets</h2>
+<div id="listing-datasets-list" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-categories="UiUyQ3BhbGVvY2xpbWF0ZQ==" data-listing-date-sort="1672531200000">
+<div class="thumbnail">
+<p><a href="https://evolecolgroup.github.io/pastclim/" class="no-external"></a></p><a href="https://evolecolgroup.github.io/pastclim/" class="no-external">
+<p><img loading="lazy" src="img/pastclim_logo.png" class="thumbnail-image"></p>
+</a><p><a href="https://evolecolgroup.github.io/pastclim/" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://evolecolgroup.github.io/pastclim/" class="no-external">palaeoclimate reconstructions</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://evolecolgroup.github.io/pastclim/" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cGFsZW9jbGltYXRl'); return false;">
+paleoclimate
+</div>
+</div>
+<div class="listing-description">
+<a href="https://evolecolgroup.github.io/pastclim/" class="no-external">We have curated several time series of palaeoclimate reconstructions (e.g.&nbsp;Beyer et al.&nbsp;2020 and Krapp et al.&nbsp;2021). The easiest way to access these data is to use <code>pastclim</code>, but the raw data are also available from the repositories associated with those publications</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://evolecolgroup.github.io/pastclim/" class="no-external"></a></p><a href="https://evolecolgroup.github.io/pastclim/" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-categories="aWNlJTIwc2hlZXRzJTJDcGFsYWVvY2xpbWF0ZQ==" data-listing-date-sort="1704067200000">
+<div class="thumbnail">
+<p><a href="https://evolecolgroup.github.io/pastclim/" class="no-external"></a></p><a href="https://evolecolgroup.github.io/pastclim/" class="no-external">
+<p><img loading="lazy" src="img/ice_sheets.png" class="thumbnail-image"></p>
+</a><p><a href="https://evolecolgroup.github.io/pastclim/" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://evolecolgroup.github.io/pastclim/" class="no-external">Ice sheet reconstructions</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://evolecolgroup.github.io/pastclim/" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('aWNlJTIwc2hlZXRz'); return false;">
+ice sheets
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cGFsYWVvY2xpbWF0ZQ=='); return false;">
+palaeoclimate
+</div>
+</div>
+<div class="listing-description">
+<a href="https://evolecolgroup.github.io/pastclim/" class="no-external">We generated estimates of extents of icesheets during the Quaternary, with maps for every glaciation in <span>Batchelor et al.&nbsp;2019</span> </a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="https://evolecolgroup.github.io/pastclim/" class="no-external"></a></p><a href="https://evolecolgroup.github.io/pastclim/" class="no-external">
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
