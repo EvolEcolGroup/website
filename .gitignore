@@ -7,3 +7,7 @@
 .DS_Store
 *.Rproj
 docs/
+
+# file generated if the template_profile is rendered by mistake
+people/_template_profile.html
+people/_template_profile_files/
