@@ -5,18 +5,22 @@ page-layout: full
 date-format: 'MMMM,<br>YYYY'
 ---
 
-This page provides a semi-complete list of all papers published by our
+<img src="./img/publications3_banner.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
+
+
+This page is still work in progress. It should provide a semi-complete list of papers published by our
 group. If you are interested in the publications authored by a specific group member,
-go to their profile and follow their Google Scholar link.
+go to their profile on the [people page](./people.html) and follow their Google Scholar link.
 
 ----
 
 ```{r bibArticle}
 #| results: asis
 #| echo: false
-pubs <- read.csv("./people/andrea_manica_pubs.csv", header=TRUE)
-source("./r_scripts/papers_functions.R")
-pubs_format_publications(pubs, "A Manica") |> cat(sep='\n\n')
-#scholar::format_publications("v8V058QAAAAJ", "A Manica") |> cat(sep='\n\n')
+
+# pubs <- read.csv("./people/andrea_manica_pubs.csv", header=TRUE)
+# source("./r_scripts/papers_functions.R")
+# pubs_format_publications(pubs, "A Manica") |> cat(sep='\n\n')
+scholar::format_publications("v8V058QAAAAJ", "A Manica") |> cat(sep='\n\n')
 ```
 

@@ -1,7 +1,8 @@
 # Quarto Website for the Evolutionary Ecology Group at the University of Cambridge
 
-This repository contains [Quarto](https://quarto.org) documents for our group website, which
-is hosted at [https://evolecolgroup.github.io/website](https://evolecolgroup.github.io/website).
+This repository contains [Quarto](https://quarto.org) documents to generate our group website, which
+is hosted at [https://evolecolgroup.github.io/website](https://evolecolgroup.github.io/website). It is still
+under development.
 
 When you render the website in RStudio, a static HTML version is updated in the `docs` folder. This is then
 served by GitHub Pages for the `main` branch.
@@ -36,5 +37,5 @@ Currently, we simply fetch the full set of Andrea's publications from Google Sch
 Only Andrea's name is highlighted, we need to create a system to highlight all group members' names.
 
 ## Notes
-The website uses two extensions, `fontawesome` and `academicicons`. These allow the inclusion of
-additional, non-standard icons using shortcodes.
+The website uses the extension `fontawesome`. This allows the inclusion of
+additional, non-standard icons using short codes.

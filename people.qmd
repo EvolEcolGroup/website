@@ -3,24 +3,24 @@ title: "People"
 toc: false
 listing:
   - id: group-members
-    contents: "people/*.qmd"
+    contents: 
+      - "people/*.qmd"
+      - "people/cosupervised.yaml"
     type: grid
-    image-height: 225px
+    image-height: 250px
     grid-columns: 3
     fields: [image, title, subtitle]
     grid-item-align: center
     sort: sortby
-#    field-display-names: 
-#      started: "Started"
   - id: alumni
     contents: 
       - "people/alumni/*.qmd"
-      - alumni.yaml
+      - "people/alumni/alumni.yaml"
     type: table
     sort: sortby
     fields: [title, subtitle, destination]
-#    sort-ui: [title, subtitle, destination]
-#    filter-ui: [title, subtitle, destination]
+    sort-ui: false
+    filter-ui: false
     field-display-names: 
       title: "Name"
       subtitle: "Role"

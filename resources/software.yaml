@@ -1,0 +1,37 @@
+- title: "`pastclim`"
+  description: "An R library  designed to provide an easy way to extract and manipulate palaeoclimate reconstructions for ecological and anthropological analyses. It is also able to handle time series of future reconstructions."
+  path: "https://evolecolgroup.github.io/pastclim/"
+  categories: [R, palaeoclimate]
+  image: "img/pastclim_logo.png"
+  date: 1/1/2023
+
+- title: "`tidysdm`"
+  description: "`tidysdm` implements Species Distribution Models using the
+`tidymodels` framework. The advantage of `tidymodels` is that the model syntax and the results
+returned to the user are standardised, thus providing a coherent interface to
+modelling."
+  path: "https://evolecolgroup.github.io/pastclim/"
+  categories: [R, SDM]
+  image: "img/tidysdm_logo.png"
+  date: 1/1/2024
+
+- title: "`tidypopgen`"
+  description: "`tidypopgen` provides a tidy grammar of population genetics, facilitating the manipulation and analysis of genetic data."
+  path: "https://evolecolgroup.github.io/tidypopgen"
+  categories: [R, population genetics]
+  image: "img/tidypopgen_logo.png"
+  date: 1/1/2025
+  
+- title: "`geoGraph`"
+  description: "`geoGraph` implements graph approaches for geographic data, allowing to estimate distance costs and find shortest paths on complex geographic graphs."
+  path: "https://evolecolgroup.github.io/geograph"
+  categories: [R, population genetics, graph theory]
+  image: "img/geograph_logo.png"
+  date: 1/1/2020
+  
+- title: "`mtDNAcombine`"
+  description: "A package to collate mtDNA sequences from NCBI GenBank to generate Bayesian Skyline Plots, as described in Miller & Manica (2021)."
+  path: "https://github.com/EvolEcolGroup/mtDNAcombine"
+  categories: [R, population genetics, mtDNA]
+  image: "img/ncbi_logo.jpg"
+  date: 1/1/2019

@@ -3,6 +3,9 @@ title: "Andrea Manica"
 sortby: "1" # set it to 1 so that this card is the first, replace it with your name for alphabetic ordering
 subtitle: "Professor of Evolutionary Ecology"
 image: andrea_manica.jpg # this should be a square image, at least 250px by 250px
+gscholar_id: "v8V058QAAAAJ"
+eeg_start: "1998"
+papers_name: "A Manica" # if you have multiple names in papers, separated them by semicolon
 toc: false
 #resources: 
 #  - "manica_cv.pdf"
@@ -10,9 +13,6 @@ about:
   id: person-profile
   template: jolla
   links:
-    - icon: link
-      text: Dept of Zoology
-      href: https://www.zoo.cam.ac.uk
 #   - icon: file-earmark-text
 #     text: vitae
 #     href: ./people/manica_cv.pdf
@@ -25,11 +25,14 @@ about:
     - icon: envelope
       text: Email
       href: "mailto:am315@cam.ac.uk"
+    - icon: link
+      text: Dept. of Zoology, Cambridge
+      href: https://www.zoo.cam.ac.uk
 ---
 
 :::{#person-profile}
 :::
 
-I am an evolutionary ecologist interested in understanding **how species respond and adapt to changing environments**. Work in my group spans from individual strategies (foraging strategies, group living) to evolutionary responses over long time scales (genetic adaptation, speciation). We specialise in using multiple lines of evidence to reconstruct past change, integrating climate reconstructions, paleontological and ecological datasets with genetic data to **understand the drivers and mechanisms that led to species changing their geographic ranges and their niches**.
+I am an evolutionary ecologist interested in understanding **how species respond and adapt to changing environments**. Work in my group spans from individual strategies (foraging strategies, group living) to evolutionary responses over long time scales (genetic adaptation, speciation). We specialise in using multiple lines of evidence to reconstruct past change, integrating climate reconstructions, paleontological and ecological datasets with genetic data to **understand the drivers and mechanisms that led to species changing their geographic ranges and their niches**. [Read more about our work ...](./research.html)
 
-**Keywords:** Population genetics, Selection and Adaptation, Species Distribution Models, Palaeoclimate reconstructions
+**Keywords:** Population genetics, Selection and Adaptation, Species Distribution Models, Palaeoclimate reconstructions, Tracking data

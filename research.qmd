@@ -12,38 +12,39 @@ elements of both.
 
 ## Individual responses to changing environments
 
-<img src="./img/project_1_banner.png" style="height: 100%; width: 100%; object-fit: contain"/>
+<img src="./img/alumni_banner.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
 
-Where should an albatross go to find food in huge, mostly empty sea? And how will it cope with
-the fact that this year the squid he feeds on are not in the same place as last year?
+Where should an albatross go to find food in a huge, mostly empty sea? And how will it cope with
+the fact that this year the squid it feeds on are not in the same place as last year?
 
 In today's rapidly changing environments, individuals are faced with multiple crucial decisions in their
 lifetime that need to account for such changes, from finding food to the timing of reproduction.
-Whilst they might have been adapted to heterogeneous conditions, the pace at which their
+Whilst they might have been adapted to varying conditions, the pace at which their
 environment is changing keeps increasing. What strategies had they evolved to cope
 with changing environments? Do all individuals in a population use the same general strategy,
 or do individuals specialise on different strategies? And, importantly, are these
 strategies still fit for purpose given the speed of anthropogenic climate change? 
 
-Most of our work is on marine birds, in collaboration
-with the British Antarctic Survey, but we also work on other taxa, such as
+Most of our work is on seabirds, in collaboration
+with [Richard Phillips](https://www.bas.ac.uk/profile/raphil/) at the British Antarctic Survey, 
+but we also work on other taxa, such as
 sharks, turtles and bears. We analyse huge tracking data, linking individual decisions
 to the environmental conditions they have experienced, and testing how well such
 moves "predict" the future. We also study how such decisions might put species in harms way
-by brining them into increased contact with humans.
+by brining them into increased contact with humans (e.g. with fisheries or plastics.
 
 ----
 
-## Metapopulation range dynamics and their consquences
+## Metapopulation range dynamics and their consequences
 
-<img src="./img/project_2_banner.png" style="height: 100%; width: 100%; object-fit: contain" />
+<img src="./img/leopard_banner.jpg" alt="leopard photo from https://animalia.bio/leopard under Share Alike licence" style="height: 100%; width: 100%; object-fit: contain" />
 
-Why are leopards in Africa almost panmictic, when their Asian counterparts show strong isolation by distance
+Why are leopards in Africa almost panmictic, whilst their Asian counterparts show strong isolation by distance
 that has led to the designation of multiple subspecies? And why do giraffes show greater genetic population
 structure than zebras?
 
 The large environmental changes that have occurred over the glacial cycles have
-led to dramatic changes in the ranges of species, fragmenting and reconnecting their
+led to dramatic changes in the distribution of species, fragmenting and reconnecting their
 ranges. This metapopulation dynamics, characterised by pulses of gene flow and isolation,
 plays a key role in shaping contemporary species. However, our ability to reconstruct
 the processes that have driven this complex dynamic (and potentially our ability to
@@ -65,6 +66,14 @@ making them open source. Check out our software and datasets on our [resources p
 
 ## Discover our work
 
-Have a glance at some of our recent work by watching this on-line lecture by Andrea! 
+Take a look at some of our recent work by watching this on-line lecture by Andrea! 
+
+<div style="padding:75% 0 0 0;position:relative;">
+<iframe src="https://player.vimeo.com/video/575810700?h=1e51090569&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=122963" 
+frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen 
+style="position:absolute;top:0;left:0;width:100%;height:100%;" >
+</iframe>
+</div>
+<script src="https://player.vimeo.com/api/player.js"></script>
 
 Prof Andrea Manica: Lecture + Q&A ["The impact of climate on the Human Niche through time" 16 July 2021, MPI-SHH](https://vimeo.com/575810700)
