@@ -10,7 +10,7 @@ date-format: 'MMMM,<br>YYYY'
 
 This page is still work in progress. It should provide a semi-complete list of papers published by our
 group. If you are interested in the publications authored by a specific group member,
-go to their profile on the [people page](./people.html) and follow their Google Scholar link.
+go to their profile on the [People page](./people.html) and follow their Google Scholar link.
 
 ----
 
@@ -21,6 +21,6 @@ go to their profile on the [people page](./people.html) and follow their Google 
 # pubs <- read.csv("./people/andrea_manica_pubs.csv", header=TRUE)
 # source("./r_scripts/papers_functions.R")
 # pubs_format_publications(pubs, "A Manica") |> cat(sep='\n\n')
-scholar::format_publications("v8V058QAAAAJ", "A Manica") |> cat(sep='\n\n')
+scholar::format_publications("v8V058QAAAAJ") |> cat(sep='\n\n')
 ```
 

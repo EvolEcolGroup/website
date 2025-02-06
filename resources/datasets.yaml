@@ -15,13 +15,13 @@
 - title: "Modern and ancient high-coverage human genomes "
   description: "A curated dataset of high-coverage shotgun data for population genomics modelling, from Maisano Delser et al. 2021"
   path: "https://www.nature.com/articles/s41597-021-00980-1"
-  categories: [ice sheets, palaeoclimate]
+  categories: [population genetics]
   image: "img/genomes_map.png"
   date: 1/1/2024
 
 - title: "Biodiversity footpring of food production"
   description: "A consistent dataset of the biodiversity footprints (species richness, threatened species richness, and range rarity) of pasture and 175 crops at the global and national level., from Beyer and Manica 2021"
   path: "https://www.sciencedirect.com/science/article/pii/S2352340921002663"
-  categories: [ice sheets, palaeoclimate]
+  categories: [biodiversity, agriculture]
   image: "img/agriculture.jpg" # from https://www.flickr.com/photos/cimmyt/4863659535 on Share Alike licence
   date: 1/6/2021

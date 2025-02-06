@@ -34,7 +34,7 @@ To add a resource (software, data, etc.) to the website, please follow these ste
 ## To update the group publications (not functional yet!)
 We need to create a system where publications can be added to the group website.
 Currently, we simply fetch the full set of Andrea's publications from Google Scholar.
-Only Andrea's name is highlighted, we need to create a system to highlight all group members' names.
+We need to create a system to highlight all group members' names.
 
 ## Notes
 The website uses the extension `fontawesome`. This allows the inclusion of

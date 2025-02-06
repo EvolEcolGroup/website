@@ -1,7 +1,7 @@
 ---
 title: "Ondrej Pelanek"
 sortby: "Pelanek Ondrej"
-subtitle: "PhD student - A genomic view of African diversity"
+subtitle: "PhD student - A genomic view of African biodiversity"
 image: ondrej_pelanek.jpg # this should be a square image 500px by 500px (or possibly 250px by 250px???)
 started: "2024"
 toc: false
