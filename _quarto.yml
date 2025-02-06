@@ -57,7 +57,7 @@ website:
 
 # do not rerender if nothing has changed
 execute:
-  freeze: true
+  freeze: false
 
 # formatting details
 format:
