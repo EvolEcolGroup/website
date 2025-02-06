@@ -2,7 +2,7 @@
 title: "Evie Carter"
 sortby: "Carter Evie"
 subtitle: "PhD student - Understanding genetic admixture in human populations"
-image: empty_profile_icon.png # this should be a square image 500px by 500px (or possibly 250px by 250px???)
+image: evie_carter.png 
 started: "2023"
 toc: false
 #resources: 
