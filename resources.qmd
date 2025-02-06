@@ -5,13 +5,11 @@ listing:
     contents: resources/software.yaml
     categories: true
     image-align: left
-#   image-height: 276px
     fields: [image,title, description, categories]
   - id: datasets-list
     contents: resources/datasets.yaml
     categories: true
     image-align: left
-#   image-height: 276px
     fields: [image,title, description, categories]
 ---
 

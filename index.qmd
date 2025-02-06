@@ -4,9 +4,6 @@ about:
   id: about-block
   image: "img/eeg_banner.jpg"
   links:
-#    - icon: twitter
-#      text: Twitter
-#      href: https://twitter.com/drmanica
     - text: "{{< fa brands bluesky >}} BlueSky"
       href: https://bsky.app/profile/eegcam.bsky.social
     - icon: github
@@ -18,7 +15,6 @@ about:
     - icon: link
       text: Dept. of Zoology, Cambridge
       href: https://www.zoo.cam.ac.uk
-
 ---
 
 ::: {#about-block}

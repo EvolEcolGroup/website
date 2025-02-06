@@ -2,10 +2,11 @@
 
 This repository contains [Quarto](https://quarto.org) documents to generate our group website, which
 is hosted at [https://evolecolgroup.github.io/website](https://evolecolgroup.github.io/website). It is still
-under development.
+under development. Feel free to fork and modify for your own uses (but please acknoledge us if you do so).
 
-When you render the website in RStudio, a static HTML version is updated in the `docs` folder. This is then
-served by GitHub Pages for the `main` branch.
+When you render the website in RStudio, a static HTML version is updated in the `docs` folder, and you can
+inspect any changes. A GitHub action triggered by commits to the `main` branch will automatically update the
+website hosted by GitHub Pages via the `gh-pages` branch.
 
 ## For new group members
 To add your profile to the website, please follow these steps:

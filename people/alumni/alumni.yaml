@@ -248,6 +248,13 @@
   destination: "Marine Science Manager at BirdLife, UK"
   eeg_start: "2010"
   eeg_end: "2014"
+  
+- title: "Max Gray"
+  subtitle: "PhD student"
+  sortby: "Gray Max"
+  destination: "MSc in Science Communication, Imperial College, UK"
+  eeg_start: "2012"
+  eeg_end: "2017"
 
 # - title: "Name Surname"
 #  subtitle: "Postdoc"
