@@ -4,7 +4,7 @@ title: 'Join our group'
 date-format: 'MMMM,<br>YYYY'
 ---
 
-<img src="./img/meet_the_team_banner.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
+<img src="./img/join_us_banner.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
 
 What does it take to work with us? First, you need to be **curious**. Asking questions is what we do for a living, and you need to be determinate to find answers, even when nothing seems to work. Second, our research is at the interface of different disciplines, so you need to be willing to **challenge yourself** regularly to learn new methods, and be **imaginative and creative** in how you approach problems. Third, you will be working in big, collaborative projects, so you need to be a **team player**, willing to work with and help others. If this sounds like you, then keep reading.
 

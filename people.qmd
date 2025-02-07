@@ -9,6 +9,7 @@ listing:
       - "people/cosupervised.yaml"
     type: grid
     image-height: 250px
+    image-lazy-loading: true
     grid-columns: 4
     fields: [image, title, subtitle]
     grid-item-align: center
