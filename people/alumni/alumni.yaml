@@ -255,6 +255,21 @@
   destination: "MSc in Science Communication, Imperial College, UK"
   eeg_start: "2012"
   eeg_end: "2017"
+  
+- title: "Andrea King"
+  subtitle: "Postdoc"
+  sortby: "King Andrew"
+  destination: "NERC Fellow, Royal Veterinary College, UK"
+  eeg_start: "2012"
+  eeg_end: "2017"
+  
+- title: "Michael Berumen"
+  subtitle: "Visiting Postdoc"
+  sortby: "Berumen Michael"
+  destination: "Professor, KAUST, Saudi Arabia"
+  eeg_start: "2007"
+  eeg_end: "2007"
+  
 
 # - title: "Name Surname"
 #  subtitle: "Postdoc"

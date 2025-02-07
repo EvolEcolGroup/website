@@ -20,7 +20,7 @@
   date: 1/1/2025
   
 - title: "**Tools for data in space and time**"
-  subtitle: "Our interdisciplinary projects require handling and analysing huge datasets from multiple sources. We release our **tools** and **curated datasets** to the broader community."
+  subtitle: "Our interdisciplinary projects require handling and analysing huge datasets from multiple sources. We release our **tools** and **curated datasets** to the broader community as open source."
   path: "research.html#tools-to-interrogate-big-data-through-space-and-time"
   image: "img/resources_banner.jpg"
   sortby: "4"

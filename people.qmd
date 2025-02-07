@@ -1,5 +1,6 @@
 ---
 title: "People"
+page-layout: full
 toc: false
 listing:
   - id: group-members
@@ -8,7 +9,7 @@ listing:
       - "people/cosupervised.yaml"
     type: grid
     image-height: 250px
-    grid-columns: 3
+    grid-columns: 5
     fields: [image, title, subtitle]
     grid-item-align: center
     sort: sortby
@@ -32,6 +33,12 @@ listing:
 
 :::{#group-members}
 :::
+
+::: {.callout-note}
+## Are you interested in joining our group?
+Read about [opportunities to do research with us](./join_us.html).
+:::
+
 
 ## Alumni
 

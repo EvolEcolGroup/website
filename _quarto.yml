@@ -30,6 +30,8 @@ website:
         href: resources.qmd
       - text: "News"
         href: news.qmd
+      - text: "Join us"
+        href: join_us.qmd
     
     # the group social media handles
     right:

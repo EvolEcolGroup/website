@@ -96,7 +96,7 @@ Our work is highly interdisciplinary, and often uses huge datasets from multiple
 This forces us to build efficient computational workflows that can handle data in very
 different formats. For certain projects, we also curate large datasets that collate information from
 multiple sources. We share our tools and data with the broader scientific community by
-making them open source. Check out our software and datasets on our [resources page](./resources.html).
+making them open source. Check out our software and datasets on our [Resources page](./resources.html).
 
 ## Discover our work
 
