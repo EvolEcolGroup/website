@@ -17,7 +17,7 @@ about:
       text: Website
       href: https://sites.google.com/view/ceciliapadillaiglesias/
     - icon: link
-      text: Dept of Zoology
+      text: Dept. of Zoology, Cambridge
       href: https://www.zoo.cam.ac.uk/directory/cecilia-padilla-iglesias
 #   - icon: file-earmark-text
 #     text: vitae

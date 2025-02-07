@@ -16,7 +16,7 @@ about:
   template: jolla
   links:  # this are optional, use the ones that you are interested in (you need at least one, or you need to commone out this line as well)
     - icon: link
-      text: Dept of Zoology
+      text: Dept. of Zoology, Cambridge
       href: https://www.zoo.cam.ac.uk
 #   - icon: file-earmark-text
 #     text: vitae
