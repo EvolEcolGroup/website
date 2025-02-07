@@ -3,6 +3,7 @@ about:
   template: marquee
   id: about-block
   image: "img/eeg_banner.jpg"
+  image-alt: "Logo for the Evolutionary Ecology Group, Department of Zoology, University of Cambridge"
   links:
     - text: "{{< fa brands bluesky >}} BlueSky"
       href: https://bsky.app/profile/eegcam.bsky.social
