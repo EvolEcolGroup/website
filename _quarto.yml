@@ -13,6 +13,7 @@ website:
   title: "EEG"
   description: "Evolutionary Ecology Group at Cambridge University"
   favicon: img/favicon.png
+  google-analytics: "G-M83FN53S91"
   
   # the navigation bar at the top of the website
   navbar:
