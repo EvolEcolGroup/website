@@ -1,13 +1,29 @@
 ---
 title: Research
+toc: false
+listing:
+  - id: research-themes
+    contents: 
+      - "research/research_themes.yaml"
+    type: grid
+    image-height: 250px
+    grid-columns: 2
+    fields: [image, title, subtitle]
+    grid-item-align: center
+    sort: sortby
+
+
 # images should be 1018 by 386 pixels
 ---
 
-Our group is interested in understanding how animals (including our own species) respond
-to changing environments. Our work spans from the ecological (individual movement decisions, range changes)
+Our group is interested in understanding how **animals (including our own species) respond
+to changing environments**. Our work spans from the ecological (individual movement decisions, range changes)
 to the evolutionary (hybridisation, adaptation and speciation) time scale. Whilst below we
 focus on these two extremes, a number of our projects cross that artificial divide, involving
 elements of both.
+
+:::{#research-themes}
+:::
 
 
 ## Individual responses to changing environments
@@ -56,7 +72,24 @@ the paleontological record, population genetic data, and paleoclimate reconstruc
 computational models which allow us to test explicitly the role of climate and
 biotic interactions in shaping the genetics of contemporary species, including our own.
 
+## Human evolutionary ecology ##
+
+<img src="./img/bones_banner.png" style="height: 100%; width: 100%; object-fit: contain"/>
+
+
+When did humans come out of Africa? Why were some moments more favourable than other? What drove cultural innovations in hunter gatherers?
+
+Climatic changes are often invoked as drivers for many of the key events that have shaped our species. But
+quantitatively testing these hypotheses is challenging. Working together with archaeologists, anthropologists and linguists,
+we have investigated the role of climate in driving brain and body size change, in shaping the emergence of major genetic lineages, and on the evolution of cultural differentiation.
+
+To ask questions about our pasts we often quantitatively combine multiple lines of evidence, curating large
+datasets that synthesize information over entire regions. By bringing together the signals that we
+can recover from archaeology and genetics (using both modern and ancient DNA), we are able to go beyond the limits of each individual discipline.
+
 ## Tools to interrogate big data through space and time
+
+<img src="./img/resources_banner.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
 
 Our work is highly interdisciplinary, and often uses huge datasets from multiple sources.
 This forces us to build efficient computational workflows that can handle data in very

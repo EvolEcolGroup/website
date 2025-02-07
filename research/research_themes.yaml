@@ -1,0 +1,27 @@
+- title: "**Movement decisions**"
+  subtitle: "How do animals change their movement decisions when facing changing environemnts? Using **tracking data**, we study their strategies through space and time."
+  path: "research.html#individual-responses-to-changing-environments"
+  image: "img/alumni_banner.jpg"
+  sortby: "1"
+  date: 1/1/2023
+
+- title: "**Range changes and adaptation**"
+  subtitle: "How do animals respond to large scale climatic change? With **species distribution models** and **population genetics**, we investigate the dynamics of range changes and adaptation to new environments."
+  path: "research.html#metapopulation-range-dynamics-and-their-consequences"
+  image: "img/leopard_banner.jpg"
+  sortby: "2"
+  date: 1/1/2024
+
+- title: "**Human evolutionary ecology**"
+  subtitle: "Humans have been deeply affected by changing environments, which have provided both opportunities and challenges. Using **ecological methods** and **population genetics**, we study the evolutionary history of our species."
+  path: "research.html#human-evolutionary-ecology"
+  image: "img/bones_banner.png"
+  sortby: "3"
+  date: 1/1/2025
+  
+- title: "**Tools for data in space and time**"
+  subtitle: "Our interdisciplinary projects require handling and analysing huge datasets from multiple sources. We release our **tools** and **curated datasets** to the broader community."
+  path: "research.html#tools-to-interrogate-big-data-through-space-and-time"
+  image: "img/resources_banner.jpg"
+  sortby: "4"
+  date: 1/1/2025
