@@ -19,7 +19,7 @@
   image: "img/genomes_map.png"
   date: 1/1/2024
 
-- title: "Biodiversity footpring of food production"
+- title: "Biodiversity footprint of food production"
   description: "A consistent dataset of the biodiversity footprints (species richness, threatened species richness, and range rarity) of pasture and 175 crops at the global and national level., from Beyer and Manica 2021"
   path: "https://www.sciencedirect.com/science/article/pii/S2352340921002663"
   categories: [biodiversity, agriculture]
