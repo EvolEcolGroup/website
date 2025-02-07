@@ -2,7 +2,7 @@
 
 This repository contains [Quarto](https://quarto.org) documents to generate our group website, which
 is hosted at [https://evolecolgroup.github.io/website](https://evolecolgroup.github.io/website). It is still
-under development. Feel free to fork and modify for your own uses (but please acknoledge us if you do so).
+under development. Feel free to fork and modify for your own uses (but please acknowledge us if you do so).
 
 When you render the website in RStudio, a static HTML version is updated in the `docs` folder, and you can
 inspect any changes. A GitHub action triggered by commits to the `main` branch will automatically update the
