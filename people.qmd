@@ -1,6 +1,6 @@
 ---
 title: "People"
-page-layout: full
+# page-layout: full
 toc: false
 listing:
   - id: group-members
@@ -9,7 +9,7 @@ listing:
       - "people/cosupervised.yaml"
     type: grid
     image-height: 250px
-    grid-columns: 5
+    grid-columns: 4
     fields: [image, title, subtitle]
     grid-item-align: center
     sort: sortby

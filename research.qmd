@@ -1,7 +1,6 @@
 ---
 title: Research
 toc: false
-page-layout: full
 listing:
   - id: research-themes
     contents: 

@@ -1,6 +1,5 @@
 ---
 title: "Andrea Manica"
-page-layout: full
 sortby: "1" # set it to 1 so that this card is the first, replace it with your name for alphabetic ordering
 subtitle: "Professor of Evolutionary Ecology"
 image: andrea_manica.jpg # this should be a square image, at least 250px by 250px

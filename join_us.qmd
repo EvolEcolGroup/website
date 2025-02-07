@@ -1,6 +1,5 @@
 ---
 title: 'Join our group'
-page-layout: full
 #title-block-banner: true
 date-format: 'MMMM,<br>YYYY'
 ---
@@ -27,7 +26,7 @@ why you want to do it. Have you read one of our recent papers? Tell me what foll
 job is to convince me that you are a biologist fascinated by what animals (or humans) do, and interested in understanding their ecology and evolution.
 
 Note that our work is mostly computational, so you need to be comfortable with programming. We mostly use R, but also some python and C++. You do not need to be a wizard in all of these languages, but some experience in at least one of
-them is a necessity. In other words, you should not be scared of a command line, and willing to learn how to master it.
+them is a necessity. In other words, you should not be scared of a command line, and be willing to learn how to master it.
 
 ## Postdocs
 
