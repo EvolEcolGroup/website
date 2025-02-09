@@ -4,7 +4,7 @@ title: 'Publications from our group'
 date-format: 'MMMM,<br>YYYY'
 ---
 
-<img src="./img/publications3_banner.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
+<img src="./img/word_cloud_25.webp" style="height: 100%; width: 100%; object-fit: contain"/>
 
 
 This page is still work in progress. It should provide a semi-complete list of papers published by our
