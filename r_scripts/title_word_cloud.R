@@ -35,7 +35,8 @@ col.pal = colorRampPalette(colors = c('brown','Darkgreen'))
 # plot it with worldcloud2
 wordcloud2(data = d, 
            size = 1, 
-           color = col.pal(10))
+           color = col.pal(10),
+           widgetsize = c(1018, 400),)
 
 # # And now plot it
 # library(ggwordcloud)
