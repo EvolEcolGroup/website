@@ -36,3 +36,15 @@ alumni_df <- df <- do.call(dplyr::bind_rows, lapply(alumni_yaml, as.data.frame))
 # combine the data
 qmd_data <- dplyr::bind_rows(qmd_data, cosup_df, alumni_df)
 
+# if missing eeg_end, use this year
+qmd_data$eeg_end[is.na(qmd_data$eeg_end)] <- 2025 # ideally do this dynamically
+
+# if missing eeg_start, use the min of eeg_start
+# this is a hack until all eeg_start dates have been filled
+# TODO fill in all eeg_start
+qmd_data$eeg_start[is.na(qmd_data$eeg_start)] <- min(qmd_data$eeg_start, na.rm = TRUE)
+
+# read the group publications already available
+group_pubs <- read.csv("papers/group_pubs.csv", stringsAsFactors = FALSE)
+# TODO as a temporary hack, read in the first 10 lines of Andrea's papers
+andrea_pubs <- read.csv("people/andrea_manica_pubs.csv", stringsAsFactors = FALSE, nrows = 10)
