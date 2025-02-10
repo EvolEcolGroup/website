@@ -3,9 +3,7 @@ title: 'Publications from our group'
 #title-block-banner: true
 date-format: 'MMMM,<br>YYYY'
 ---
-
-<img src="./img/word_cloud_25.webp" style="height: 100%; width: 100%; object-fit: contain"/>
-
+![Word cloud from the titles of our publications](./img/word_cloud_25.webp){fig-alt="Word cloud from the titles of our publications"}
 
 This page is still work in progress. It should provide a semi-complete list of papers published by our
 group. If you are interested in the publications authored by a specific group member,

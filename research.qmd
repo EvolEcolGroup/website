@@ -28,7 +28,7 @@ elements of both.
 
 ## Individual responses to changing environments
 
-<img src="./img/albatross_banner.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
+<img src="./img/seabird_banner.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
 
 Where should an albatross go to find food in a huge, mostly empty sea? And how will it cope with
 the fact that this year the squid it feeds on are not in the same place as last year?
