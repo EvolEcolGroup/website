@@ -8,6 +8,7 @@
   subtitle: "PhD student"
   sortby: "Bonnet-Lebrun Anne-Sophie"
   destination: "Postdoc at MARE, Lisbon, Portugal"
+  papers_name: "AS Bonnet-Lebrun"
 
 - title: "Robert Beyer"
   subtitle: "Postdoc"
@@ -19,7 +20,7 @@
   subtitle: "PhD Student"
   sortby: "Clay Tommy"
   destination: "Postdoc at Liverpool University, UK"
-  papers_name: "TM Clay"
+  papers_name: "TA Clay"
 
 - title: "Dave Daversa"
   subtitle: "PhD student"
@@ -74,6 +75,7 @@
   sortby: "Korneliussen Thorfinn"
   destination: "Assistant Professor at the Natural History Museum of Denmark, Denmark"
   papers_name: "TS Korneliussen"
+  eeg_start: "2019"
   eeg_end: "2022"
   
 - title: "Liisa Loog"
@@ -111,11 +113,14 @@
   subtitle: "PhD student"
   sortby: "Riley Riva"
   destination: "Postdoc at University College London,UK"
+  papers_name: "RJ Riley"
+  eeg_end: "2022"
 
 - title: "Veronika Siska"
   subtitle: "PhD student"
   sortby: "Siska Veronika"
   destination: "Data analyst with Ablacon, UK"
+  papers_name: "V Siska"
 
 - title: "Gian Luigi Somma"
   subtitle: "Postdoc"
@@ -132,7 +137,8 @@
   subtitle: "PhD student"
   sortby: "Warmuth Vera"
   destination: "Postdoc at University College London, UK"
-
+  papers_name: "V Warmuth"
+  
 - title: "Cat Horswill"
   subtitle: "PhD student"
   sortby: "Horswill Cat"
@@ -159,6 +165,7 @@
   subtitle: "PhD student"
   sortby: "Kennerley James"
   destination: "Research Fellow at Cornell Lab of Ornithology, US"
+  papers_name: "JA Kennerley"
 
 - title: "Marianna Fusco"
   subtitle: "Phd student - visiting"
@@ -183,19 +190,19 @@
   sortby: "Jackson Iseult"
   destination: "Postdoc at Max Planck Institute for Evolutionary Anthropology, Germany"
 
-- title: "Helen Scales (Hendry)"
+- title: "Helen Scales"
   subtitle: "PhD student"
   sortby: "Scales Helen"
   destination: "Public Science author"
   eeg_start: "2002"
-  eeg_end: "2005"
+  papers_name: "H Scales"
   
 - title: "James Gilbert"
   subtitle: "PhD student"
   sortby: "Gilbert James"
   destination: "Postdoc in the US"
   eeg_start: "2002"
-  eeg_end: "2006"
+  papers_name: "JDJ Gilbert"
   
 - title: "Lauren Coad"
   subtitle: "PhD student"
@@ -210,34 +217,39 @@
   destination: "Working for the Nature Conservation Foundation, India"
   eeg_start: "2006"
   eeg_end: "2010"
+  papers_name: "AS Lobo"
 
 - title: "Jennifer Oates"
   subtitle: "PhD student"
   sortby: "Oates Jennifer"
   destination: "UK Marine Protected Areas Adviser with Joint Nature Conservation Committee, UK"
   eeg_start: "2006"
-  eeg_end: "2010"
+  eeg_end: "2014"
+  papers_name: "J Oates"
 
 - title: "Jennifer Harcourt"
   subtitle: "PhD student"
   sortby: "Harcourt Jennifer"
   destination: "Demand Planner at L'Oreal, UK"
   eeg_start: "2006"
-  eeg_end: "2010"
+  eeg_end: "2012"
+  papers_name: "JL Harcourt"
   
 - title: "Tzo Zen Ang"
   subtitle: "PhD student"
   sortby: "Ang Tzo Zen"
   destination: "Management Concultant at McKinsey, UK"
   eeg_start: "2006"
-  eeg_end: "2010"  
+  eeg_end: "2013" 
+  papers_name: "TZ Ang"
   
 - title: "Nouar Qutob"
   subtitle: "PhD student"
   sortby: "Qutob Nouar"
   destination: "Postdoc at the Weizmann Institute fo Science, Israel"
   eeg_start: "2007"
-  eeg_end: "2011" 
+  eeg_end: "2013" 
+  papers_name: "N Qutob"
 
 - title: "Alex Vail"
   subtitle: "PhD student"
@@ -245,12 +257,13 @@
   destination: "Wildlife Camera Operator for the BBC Natural History Unit, UK"
   eeg_start: "2010"
   eeg_end: "2014"
+  papers_name: "AL Vail"
   
 - title: "Tharsila Carranza"
   subtitle: "PhD student"
   sortby: "Carranza Tharsila"
   eeg_start: "2009"
-  eeg_end: "2012"
+  eeg_end: "2014"
   papers_name: "T Carranza"
 
 - title: "Ana Bertoldi Carneiro"
@@ -258,7 +271,7 @@
   sortby: "Carneiro Ana"
   destination: "Marine Science Manager at BirdLife, UK"
   eeg_start: "2010"
-  eeg_end: "2014"
+  eeg_end: "2017"
   papers_name: "APB Carneiro"
   
 - title: "Max Gray"
@@ -274,6 +287,7 @@
   destination: "NERC Fellow, Royal Veterinary College, UK"
   eeg_start: "2012"
   eeg_end: "2017"
+  papers_name: "AJ King"
   
 - title: "Michael Berumen"
   subtitle: "Visiting Postdoc"
@@ -281,6 +295,20 @@
   destination: "Professor, KAUST, Saudi Arabia"
   eeg_start: "2007"
   eeg_end: "2007"
+
+- title: "Teresa Vizzari"
+  subtitle: "Visiting PhD student"
+  sortby: "Vizzari Teresa"
+  destination: "Postdoc at the University of Ferrara, Italy"
+  eeg_start: "2022"
+  eeg_end: "2025"
+  papers_name: "MT Vizzari"
+  
+- title: "Shin Nakayama"
+  subtitle: "Postdoc"
+  sortby: "Nakayama S"
+  destination: "Data Scientist at the Center for Ocean Solutions, Stanford University, US"
+  papers_name: "S Nakayama"
   
 
 # - title: "Name Surname"

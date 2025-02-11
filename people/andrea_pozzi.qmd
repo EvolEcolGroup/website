@@ -4,6 +4,7 @@ sortby: "Pozzi Andrea Vittorio"
 subtitle: "PhD student - Dispersal potential in climate-sensitive species"
 image: andrea_pozzi.jpeg # this should be a square image 500px by 500px (or possibly 250px by 250px???)
 toc: false
+papers_name: "AV Pozzi"
 #resources: 
 #  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
 about:
