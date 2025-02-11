@@ -4,15 +4,6 @@
 ### Banners
 
 
-![alumni_banner.jpg](alumni_banner.jpg "alumni banner")
-
-[Photo](https://unsplash.com/photos/white-bird-flying-in-the-sky-dfdJVbVQYak) 
-by [Phil Botha](https://unsplash.com/@philbotha) 
-on [unsplash](https://unsplash.com/photos). 
-free for commercial and non-commercial use, with or without attribution: 
-[licence](https://unsplash.com/license). 
-
-
 ![bones_banner.png](bones_banner.png "bones banner")
 
 Add information
@@ -35,6 +26,9 @@ attribution ([licence](https://www.pexels.com/license/)).
 
 
 ![leopard_banner.jpg](leopard_banner.jpg "leopard banner")
+[Photo]("https://s3.animalia.bio/animals/photos/full/original/62WplVyX4AKxuNRTGKDi.webp")
+Share-Alike Licence
+
 
 Add information
 
@@ -112,16 +106,6 @@ Free for commercial and non-commercial use, with or without attribution:
 [licence](https://unsplash.com/license). 
 
 
-![to_remove_publications2_banner.jpg](publications2_banner.jpg "publications2_banner.jpg")
-
-WARNING: remove as not available online anymore
-
-
-![to_remove_publications3_banner.jpg](publications3_banner.jpg "publications3_banner.jpg")
-
-WARNING: remove as not available online anymore
- 
-
 ![website_banner_neanderthal.png](website_banner_neanderthal.png "website banner neanderthal")
 
 Owner: [Andrea Manica](../people/andrea_manica.html). 
@@ -143,7 +127,8 @@ Owner: [Andrea Manica](../people/andrea_manica.html).
 
 ![agriculture.jpg](agriculture.jpg "agriculture")
 
-Add information
+[Photo](https://www.flickr.com/photos/cimmyt/4863659535)
+Share Alike licence
 
 
 ![climate_maps.jpg](climate_maps.jpg "climate maps")

@@ -1,0 +1,29 @@
+---
+title: "Publications clean up"
+author: "Andrea"
+date: "2025-02-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This quick document provides a few examples of how to clean up publication data. 
+```{r}
+csv_path <- "../people/andrea_manica_pubs.csv"
+pubs <- read.csv(csv_path, stringsAsFactors = FALSE)
+nrow(pubs)
+```
+
+Find a paper with a given pattern in a title and remove it
+```{r}
+pattern <- "The influence of reproductive mode"
+pubs <- pubs[!grepl(pattern, pubs$title, ignore.case = TRUE), ]
+nrow(pubs)
+```
+
+Now save it to a new file
+```{r}
+write.csv(pubs, csv_path, row.names = FALSE)
+```

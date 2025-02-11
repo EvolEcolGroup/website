@@ -5,6 +5,7 @@ subtitle: "PhD student - Understanding the past using genomics and environmental
 image: zhe_xue.jpg # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
 toc: false
 gscholar_id: "n53QNesAAAAJ"
+papers_name: "Z Xue"
 eeg_start: "2021"
 #papers_name: "AN Other" # if you have multiple names in papers, separated #them by semicolon
 

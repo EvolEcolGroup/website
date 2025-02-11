@@ -5,7 +5,7 @@ subtitle: "Postdoc - Hunter-gatherer population dynamics"
 image: cecilia_padilla.jpg # this should be a square image 500px by 500px (or possibly 250px by 250px???)
 toc: false
 gscholar_id: "bQ8MC9AAAAAJ"
-eeg_start: "2021"
+eeg_start: "2024"
 papers_name: "C Padilla-Iglesias" # if you have multiple names in papers, separated them by semicolon
 #resources: 
 #  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV

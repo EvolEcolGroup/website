@@ -4,6 +4,7 @@ sortby: "Leonardi Michela"
 subtitle: "Visiting Postdoc - Ecological dynamics through space and time"
 image: michela_leonardi.jpg # this should be a square image 500px by 500px (or possibly 250px by 250px???)
 toc: false
+papers_name: "M Leonardi"
 #resources: 
 #  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
 about:

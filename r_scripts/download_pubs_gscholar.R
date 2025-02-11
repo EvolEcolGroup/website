@@ -14,12 +14,9 @@ if (file.exists(pubs_csv)){
   pubs <- NULL
 }
 
-# download all publications of a google scholar profile
-# there is a bug in scholar where it does not seem to respect cstart and cstop
-# so we have download all of them
-new_pubs <- scholar::get_publications(author_id, sortby="year")
-# sometimes we get duplicated records from google scholar
-new_pubs <- dplyr::distinct(new_pubs, pubid, .keep_all = TRUE)
+# download all publications of a Google scholar profile
+# NOTE that sort_by = "year" should NOT be used, as it is buggy for profiles with many publications
+new_pubs <- scholar::get_publications(author_id)
 
 # merge new and old publications, only adding new pubs that are not already in pubs
 if (!is.null(pubs)){

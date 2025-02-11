@@ -2,106 +2,110 @@
   subtitle: "PhD student"
   sortby: "Bentley Lily"
   destination: "Postdoc at the University of Queensland, Australia"
+  papers_name: "LK Bentley"
 
-  
 - title: "Anne-Sophie Bonnet-Lebrun"
   subtitle: "PhD student"
   sortby: "Bonnet-Lebrun Anne-Sophie"
   destination: "Postdoc at MARE, Lisbon, Portugal"
 
-
 - title: "Robert Beyer"
   subtitle: "Postdoc"
   sortby: "Beyer Robert"
   destination: "Marie Curie fellow in Berlin, Germany"
-
+  papers_name: "RM Beyer" # todo add R Beyer
 
 - title: "Tommy Clay"
   subtitle: "PhD Student"
   sortby: "Clay Tommy"
   destination: "Postdoc at Liverpool University, UK"
+  papers_name: "TM Clay"
 
-  
 - title: "Dave Daversa"
   subtitle: "PhD student"
   sortby: "Daversa Dave"
   destination: "Postdoc at Liverpool University, UK"
+  papers_name: "DR Daversa"
 
-  
 - title: "Anders Eriksson"
   subtitle: "Postdoc"
   sortby: "Eriksson Anders"
   destination: "Lecturer at King's College London, UK"
+  papers_name: "A Eriksson"
 
-  
 - title: "Caitlin Frankish"
   subtitle: "PhD student"
   sortby: "Frankish Caitlin"
   destination: "Postdoc at Aarhus University, Denmark"
+  papers_name: "CK Frankish"
 
-  
 - title: "Will Feeney"
-  subtitle: "Visiting Postdoc"
+  subtitle: "Postdoc - visiting"
   sortby: "Feeney Will"
   destination: "Research Fellow at University of Queensland, Australia"
-
+  papers_name: "WE Feeney"
 
 - title: "Marco Gallego Llorente"
   subtitle: "PhD student"
   sortby: "Gallego Llorente Marco"
   destination: "Innovation consultant with Cambridge Innovation Consulting, UK"
-
+  papers_name: "M Gallego-Llorente"
 
 - title: "Jolle Jolles"
   subtitle: "PhD student"
   sortby: "Jolles Jolle"
   destination: "Postdoc at the Max Planck Institute in Konstanz, Germany"
-
+  papers_name: "JW Jolles"
 
 - title: "Eppie Jones"
-  subtitle: "Herchel Smith Fellow"
+  subtitle: "Postdoc - Herchel Smith Fellow"
   sortby: "Jones Eppie"
   destination: "Bioinformatician at Genomics Medicine, Ireland"
-
+  papers_name: "ER Jones"
 
 - title: "Mario Krapp"
   subtitle: "Postdoc"
   sortby: "Krapp Mario"
   destination: "Research Fellow in Wellington, New Zealand"
-
+  papers_name: "M Krapp"
 
 - title: "Thorfinn Korneliussen"
-  subtitle: "Carlsberg Postdoctoral Fellow"
+  subtitle: "Postdoc - Carlsberg Postdoctoral Fellow"
   sortby: "Korneliussen Thorfinn"
   destination: "Assistant Professor at the Natural History Museum of Denmark, Denmark"
-
-
+  papers_name: "TS Korneliussen"
+  eeg_end: "2022"
+  
 - title: "Liisa Loog"
   subtitle: "Visiting PhD Student"
   sortby: "Loog Liisa"
   destination: "Postdoc at Manchester University, UK"
-
+  papers_name: "L Loog"
 
 - title: "Pier Paolo Maisano Delser"
   subtitle: "Postdoc"
   sortby: "Maisano Delser Pier Paolo"
   destination: "Evidence and Intelligence Lead at NHS England, UK"
-
+  papers_name: "PM Delser"
 
 - title: "Eleanor Miller"
   subtitle: "Postdoc"
   sortby: "Miller Eleanor"
   destination: "Senior Data Manager at Imperial College London, UK"
+  papers_name: "EF Miller"
 
 - title: "Gerrit Nanninga"
-  subtitle: "Marie Curie Postdoctoral Fellow"
+  subtitle: "Postdoc - Marie Curie Postdoctoral Fellow"
   sortby: "Nanninga Gerrit"
   destination: "Lecturer at Essex University, UK"
+  papers_name: "GB Nanninga"
 
 - title: "Mikkel Winther Pedersen"
   subtitle: "Postdoc"
   sortby: "Pedersen Mikkel"
   destination: "Assistant Professor at the Natural History Museum of Denmark, Denmark"
+  papers_name: "MW Pedersen"
+  eeg_end: "2022"
 
 - title: "Riva Riley"
   subtitle: "PhD student"
@@ -121,6 +125,7 @@
 - title: "Julia Spaet"
   subtitle: "Postdoc"
   sortby: "Spaet Julia"
+  papers_name: "JLY Spaet"
 #  destination: next job
 
 - title: "Vera Warmuth"
@@ -132,11 +137,13 @@
   subtitle: "PhD student"
   sortby: "Horswill Cat"
   destination: "Research Fellow at University College London, UK"
+  papers_name: "C Horswill"
 
 - title: "Marius Somveille"
   subtitle: "PhD Student"
   sortby: "Somveille Marius"
   destination: "Research Fellow at University College London, UK"
+  papers_name: "M Somveille"
 
 - title: "Madeleine Emms"
   subtitle: "PhD Student"
@@ -154,9 +161,10 @@
   destination: "Research Fellow at Cornell Lab of Ornithology, US"
 
 - title: "Marianna Fusco"
-  subtitle: "Visiting Phd student"
+  subtitle: "Phd student - visiting"
   sortby: "Fusco Marianna"
   destination: "Postdoc at Sapienza University of Rome, Italy"
+  papers_name: "M Fusco"
 
 - title: "Paul Breeze"
   subtitle: "Postdoc"
@@ -164,12 +172,14 @@
   destination: "Lecturer at King's College London, UK"
 
 - title: "Johanna Paijmans"
-  subtitle: "Marie Curie fellow"
+  subtitle: "Postdoc - Marie Curie fellow"
   sortby: "Paijmans Johanna"
   destination: "Lecturer at Bangor University, UK"
+  papers_name: "JLA Paijmans"
+  eeg_start: "2022"
 
 - title: "Iseult Jackson"
-  subtitle: "Visiting PhD student"
+  subtitle: "PhD student - visiting"
   sortby: "Jackson Iseult"
   destination: "Postdoc at Max Planck Institute for Evolutionary Anthropology, Germany"
 
@@ -241,6 +251,7 @@
   sortby: "Carranza Tharsila"
   eeg_start: "2009"
   eeg_end: "2012"
+  papers_name: "T Carranza"
 
 - title: "Ana Bertoldi Carneiro"
   subtitle: "PhD student"
@@ -248,6 +259,7 @@
   destination: "Marine Science Manager at BirdLife, UK"
   eeg_start: "2010"
   eeg_end: "2014"
+  papers_name: "APB Carneiro"
   
 - title: "Max Gray"
   subtitle: "PhD student"

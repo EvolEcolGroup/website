@@ -15,9 +15,11 @@ go to their profile on the [People page](./people.html) and follow their Google 
 #| results: asis
 #| echo: false
 
-# pubs <- read.csv("./people/andrea_manica_pubs.csv", header=TRUE)
-# source("./r_scripts/papers_functions.R")
-# pubs_format_publications(pubs, "A Manica") |> cat(sep='\n\n')
+#source("./r_scripts/papers_functions.R")
+#group_pubs <- read.csv("papers/eeg_pubs.csv", stringsAsFactors = FALSE)
+#people_metadata <- read.csv("papers/people_metadata.csv")
+#format_publication_list(group_pubs, people_metadata) |> cat(sep='\n\n')
+
 scholar::format_publications("v8V058QAAAAJ") |> cat(sep='\n\n')
 ```
 

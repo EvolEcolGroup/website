@@ -4,6 +4,7 @@
   image: "people/nile_stephenson.jpg"
   path: "https://www.zoo.cam.ac.uk/directory/nile-stephenson"
   eeg_start: "2022"
+  papers_name: "NP Stephenson"
   
 - title: "Ming Khan"
   subtitle: "PhD student (Based in the Deep Time Group) - Antarctic benthic ecology"
@@ -11,6 +12,7 @@
   image: "people/ming_khan.png"
   path: "https://www.zoo.cam.ac.uk/directory/ming-khan"
   eeg_start: "2022"
+  papers_name: "TM Khan"
   
 - title: "Aramish Fatima"
   subtitle: "PhD student (Based in the Vertebrate Palaeontology Group) -Garial ecology"

@@ -17,6 +17,10 @@ pubs_get_all_authors <- function(pubs, author_id, delay = 0.8) {
     dplyr::mutate(id = author_id)
   df2 <- df1 %>%
     dplyr::filter(stringr::str_detect(author, "\\.\\.\\."))
+  # if there were no authors with ellipsis, return the original data frame
+  if (df2 %>% nrow() == 0) {
+    return(df1)
+  }
   df3 <- df2 %>%
     dplyr::mutate(complete_authors = purrr::map2(id, pubid, scholar::get_complete_authors, delay = 0.8, initials = TRUE))
   df4 <- df3 %>%
@@ -41,11 +45,9 @@ pubs_get_all_authors <- function(pubs, author_id, delay = 0.8) {
 
 
 pubs_get_all_urls <- function(pubs, author_id, delay = 0.8) {
-  # make sure that we don't have duplicated pubids
-  pubs_unique <- dplyr::distinct(pubs, pubid, .keep_all = TRUE)
   # if the url column does not exist yet, add it and set all to NA
-  if (!"url" %in% colnames(pubs_unique)) {
-    pubs_unique$url <- NA
+  if (!"url" %in% colnames(pubs)) {
+    pubs$url <- NA
   }
   # TODO get indeces of lines that have na for url
   min_delay = delay - 0.5
@@ -54,15 +56,15 @@ pubs_get_all_urls <- function(pubs, author_id, delay = 0.8) {
     min_delay <- 0
   if (delay == 0) 
     max_delay <- 0
-  for (i in 1:nrow(pubs_unique)) {
-    if (is.na(pubs_unique$url[i])) {
+  for (i in 1:nrow(pubs)) {
+    if (is.na(pubs$url[i])) {
       delay <- sample(seq(min_delay, max_delay, by = 0.001), 
                       1)
       Sys.sleep(delay)
-      pubs_unique$url[i] <- scholar::get_publication_url(author_id, df1$pubid[i])
+      pubs$url[i] <- scholar::get_publication_url(author_id, pubs$pubid[i])
     }
   }
-  return(pubs_unique)
+  return(pubs)
 }
 
 #' Format publications for a markdown/quarto file
@@ -95,3 +97,53 @@ pubs_format_publications <- function (pubs, author.name = NULL)
     return(res)
   gsub(author.name2, paste0("**", author.name2, "**"), res)
 }
+
+#' Function to format a publication list
+#' 
+#' Take a data.frame with information on publications and, optionally, a data.frame
+#' of authors to highlight, and return a fully formatted bibliography
+#' 
+#' @param pubs a data.frame as produced by `download_pubs_gscholar`
+#' @param highlight_authors either a single string (for a single author), or 
+#' a data.frame of authors details. The key columns are papers name (which can
+#' consist of multiple names, separated by a ;, in the format AN Other)
+#' @returns a full bibliography as a single string
+
+format_publication_list <- function(pubs, authors_highlight) {
+  pubs2 <- pubs %>% strsplit(x = .$author, split = ",")
+  pubs$author <- lapply(pubs2, function(x) {
+    x <- scholar:::swap_initials(x)
+    x[length(x)] <- paste0("& ", x[length(x)])
+    x <- paste0(x, collapse = ", ")
+    ifelse(startsWith(x, "& "), sub("& ", "", x), x)
+  })
+  # now highlight the authors
+  # if we have a single author
+  if (inherits(authors_highlight, "character")){
+    author.name2 <- scholar:::swap_initials(authors_highlight)
+    pubs$author <- gsub(author.name2, paste0("**", author.name2, "**"), pubs$author)
+  } else { # if we have multiple authors
+    # TODO if we have multiple names in the same line, create new lines with unique names
+    
+    
+    for (i in seq_len(nrow(authors_highlight))){ # for each author
+      if (!is.na(authors_highlight$papers_name[i])){ # skip if there is no name for this group member
+        author.name2 <- scholar:::swap_initials(authors_highlight$papers_name[i])
+        start_year <- as.integer(authors_highlight$eeg_start[i])
+        end_year <- as.integer(authors_highlight$eeg_end[i])
+        pubs$author[(pubs$year >= start_year) & (pubs$year <= end_year)] <-
+          gsub(author.name2, paste0("**", author.name2, "**"),pubs$author[(pubs$year >= start_year) & (pubs$year <= end_year)])
+      }
+      
+    }
+  }
+  
+  res <- pubs %>% arrange(desc(.data$year)) %>% mutate(journal = paste0("*", 
+                                                                        .data$journal, "*"), Publications = paste0(.data$author, 
+                                                                                                                   " (", .data$year, "). ", .data$title, ". ", .data$journal, 
+                                                                                                                   ". ", .data$number)) %>% pull(.data$Publications)
+  return(res)
+}
+
+
+
