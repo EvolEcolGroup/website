@@ -20,6 +20,6 @@ go to their profile on the [People page](./people.html) and follow their Google 
 # people_metadata <- read.csv("papers/people_metadata.csv")
 # format_publication_list(group_pubs, people_metadata) |> cat(sep='\n\n')
 
-scholar::format_publications("v8V058QAAAAJ", with_url_link =) |> cat(sep='\n\n')
+scholar::format_publications("v8V058QAAAAJ") |> cat(sep='\n\n')
 ```
 

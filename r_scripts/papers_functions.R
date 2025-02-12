@@ -148,7 +148,7 @@ format_publication_list <- function(pubs, authors_metadata, with_url_link = TRUE
   }
   # format link
   if (with_url_link){
-    pubs$url_link <- ifelse(is.na(pubs$url), "", paste0('[{{< fa link>}}]("', pubs$url, '")'))
+    pubs$url_link <- ifelse(is.na(pubs$url), "", paste0('[{{< fa link>}}](<', pubs$url, '>)'))
   } else {
     pubs$url_link <- ""
   }
