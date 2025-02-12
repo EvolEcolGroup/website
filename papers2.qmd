@@ -5,11 +5,9 @@ date-format: 'MMMM,<br>YYYY'
 ---
 ![Word cloud from the titles of our publications](./img/word_cloud_25.webp){fig-alt="Word cloud from the titles of our publications"}
 
-This page is still work in progress. It should provide a semi-complete list of papers published by our
-group. If you are interested in the publications authored by a specific group member,
-go to their profile on the [People page](./people.html) and follow their Google Scholar link.
-
-[{{< fa link>}}](https:://zoo.cam.ac.uk)
+This is a list of our papers, with group members in bold. If you are interested in the publications authored by a specific group member,
+go to their profile on the [People page](./people.html) and follow their Google Scholar link. The {{< fa link>}} gives a link to the
+original paper.
 
 ----
 
