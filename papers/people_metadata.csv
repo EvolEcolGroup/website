@@ -1,4 +1,4 @@
-"","file_csv","gscholar_id","eeg_start","papers_name","title","subtitle","sortby","image","path","destination","eeg_end"
+"","file_csv","gscholar_id","group_start","papers_name","title","subtitle","sortby","image","path","destination","papers_end"
 "1","people/andrea_manica_pubs.csv","v8V058QAAAAJ","1998","A Manica",NA,NA,NA,NA,NA,NA,"2025"
 "2","people/andrea_pozzi_pubs.csv",NA,"1998","AV Pozzi",NA,NA,NA,NA,NA,NA,"2025"
 "3","people/cecilia_padilla_pubs.csv","bQ8MC9AAAAAJ","2024","C Padilla-Iglesias",NA,NA,NA,NA,NA,NA,"2025"

@@ -9,6 +9,8 @@ This page is still work in progress. It should provide a semi-complete list of p
 group. If you are interested in the publications authored by a specific group member,
 go to their profile on the [People page](./people.html) and follow their Google Scholar link.
 
+[{{< fa link>}}](https:://zoo.cam.ac.uk)
+
 ----
 
 ```{r bibArticle}

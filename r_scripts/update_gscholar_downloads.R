@@ -11,7 +11,7 @@ qmd_files <- qmd_files[-grep("template", qmd_files)]
 # create a data.frame to store the information
 qmd_data <- data.frame(file_csv = paste0(tools::file_path_sans_ext(qmd_files),"_pubs.csv"),
                        gscholar_id = rep(NA, length(qmd_files)),
-                       eeg_start = rep(NA, length(qmd_files)),
+                       group_start = rep(NA, length(qmd_files)),
                        papers_name =rep(NA, length(qmd_files)))
 # loop over the files and extract the appropriate metadata
 for (i in seq_len(length(qmd_files))){
@@ -27,7 +27,7 @@ for (i in seq_len(length(qmd_files))){
   }
   # get the gscholar_id
   qmd_data$gscholar_id[i] <- get_meta_field("^gscholar_id", lines)
-  qmd_data$eeg_start[i] <- get_meta_field("^eeg_start", lines)
+  qmd_data$group_start[i] <- get_meta_field("^group_start", lines)
   qmd_data$papers_name[i] <- get_meta_field("^papers_name", lines)
 }
 
@@ -40,13 +40,13 @@ alumni_df <- df <- do.call(dplyr::bind_rows, lapply(alumni_yaml, as.data.frame))
 # combine the data
 qmd_data <- dplyr::bind_rows(qmd_data, cosup_df, alumni_df)
 
-# if missing eeg_end, use this year
-qmd_data$eeg_end[is.na(qmd_data$eeg_end)] <- 2025 # ideally do this dynamically
+# if missing papers_end, use this year
+qmd_data$papers_end[is.na(qmd_data$papers_end)] <- 2025 # ideally do this dynamically
 
-# if missing eeg_start, use the min of eeg_start
-# this is a hack until all eeg_start dates have been filled
-# TODO fill in all eeg_start in the actual documents
-qmd_data$eeg_start[is.na(qmd_data$eeg_start)] <- min(qmd_data$eeg_start, na.rm = TRUE)
+# if missing group_start, use the min of group_start
+# this is a hack until all group_start dates have been filled
+# TODO fill in all group_start in the actual documents
+qmd_data$group_start[is.na(qmd_data$group_start)] <- min(qmd_data$group_start, na.rm = TRUE)
 # save the metadata for later use
 write.csv(qmd_data,"./papers/people_metadata.csv")
 
@@ -81,7 +81,7 @@ for (i in seq_len(nrow(qmd_data))){
       # save the new publications
       write.csv(all_pubs, qmd_data$file_csv[i], row.names = FALSE)
       # if any of the publications matches the year range
-      new_pubs <- dplyr::filter(new_pubs, year >= qmd_data$eeg_start[i] & year <= qmd_data$eeg_end[i])
+      new_pubs <- dplyr::filter(new_pubs, year >= qmd_data$group_start[i] & year <= qmd_data$papers_end[i])
       # and they dont' exist in group publications (based on title)
       new_pubs <- dplyr::anti_join(new_pubs, group_pubs, by = "title")
       if (nrow(new_pubs) > 0){

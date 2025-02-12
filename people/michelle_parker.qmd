@@ -5,7 +5,7 @@ subtitle: "PhD student - Climate-driven selection in humans"
 image: michelle_parker.jpg # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
 toc: false
 #gscholar_id: "YOUR_ID"
-eeg_start: "2018"
+group_start: "2018"
 papers_name: "M Parker" # if you have multiple names in papers, separated them by semicolon
 
 

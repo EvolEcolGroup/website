@@ -5,7 +5,7 @@ subtitle: "PhD student - Human wildlife conflict"
 image: nina_baranduin.png # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
 toc: false
 #gscholar_id: "YOUR_ID"
-eeg_start: "2024"
+group_start: "2024"
 papers_name: "N Baranduin" # if you have multiple names in papers, separated them by semicolon
 
 

@@ -5,7 +5,7 @@ subtitle: "Visiting Researcher & CEO of Save Our Seas -  Shark ecology"
 image: james_lea.jpg # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
 toc: false
 #gscholar_id: "YOUR_ID"
-eeg_start: "2019"
+group_start: "2019"
 papers_name: "JSE Lea" # if you have multiple names in papers, separated them by semicolon
 
 

@@ -107,9 +107,10 @@ pubs_format_publications <- function (pubs, author.name = NULL)
 #' @param highlight_authors either a single string (for a single author), or 
 #' a data.frame of authors details. The key columns are papers name (which can
 #' consist of multiple names, separated by a ;, in the format AN Other)
+#' @param with_url_link if TRUE, include a link to the publication
 #' @returns a full bibliography as a single string
 
-format_publication_list <- function(pubs, authors_highlight) {
+format_publication_list <- function(pubs, authors_highlight, with_url_link = TRUE) {
   pubs2 <- pubs %>% strsplit(x = .$author, split = ",")
   pubs$author <- lapply(pubs2, function(x) {
     x <- scholar:::swap_initials(x)
@@ -129,19 +130,25 @@ format_publication_list <- function(pubs, authors_highlight) {
     for (i in seq_len(nrow(authors_highlight))){ # for each author
       if (!is.na(authors_highlight$papers_name[i])){ # skip if there is no name for this group member
         author.name2 <- scholar:::swap_initials(authors_highlight$papers_name[i])
-        start_year <- as.integer(authors_highlight$eeg_start[i])
-        end_year <- as.integer(authors_highlight$eeg_end[i])
+        start_year <- as.integer(authors_highlight$group_start[i])
+        end_year <- as.integer(authors_highlight$papers_end[i])
         pubs$author[(pubs$year >= start_year) & (pubs$year <= end_year)] <-
           gsub(author.name2, paste0("**", author.name2, "**"),pubs$author[(pubs$year >= start_year) & (pubs$year <= end_year)])
       }
       
     }
   }
-  
+  # format link
+  if (with_url_link){
+    pubs$url_link <- ifelse(is.na(pubs$url), "", paste0('[{{< fa link>}}]("', pubs$url, '")'))
+  } else {
+    pubs$url_link <- ""
+  }
+
   res <- pubs %>% arrange(desc(.data$year)) %>% mutate(journal = paste0("*", 
                                                                         .data$journal, "*"), Publications = paste0(.data$author, 
                                                                                                                    " (", .data$year, "). ", .data$title, ". ", .data$journal, 
-                                                                                                                   ". ", .data$number)) %>% pull(.data$Publications)
+                                                                                                                   ". ", .data$number,.data$url_link)) %>% pull(.data$Publications)
   return(res)
 }
 

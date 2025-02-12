@@ -4,7 +4,7 @@ sortby: "1" # set it to 1 so that this card is the first, replace it with your n
 subtitle: "Professor of Evolutionary Ecology - Head of Group"
 image: andrea_manica.jpg # this should be a square image, at least 250px by 250px
 gscholar_id: "v8V058QAAAAJ"
-eeg_start: "1998"
+group_start: "1998"
 papers_name: "A Manica" # if you have multiple names in papers, separated them by semicolon
 toc: false
 #resources: 

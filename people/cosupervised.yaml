@@ -3,7 +3,7 @@
   sortby: "Stephenson Nile"
   image: "people/nile_stephenson.jpg"
   path: "https://www.zoo.cam.ac.uk/directory/nile-stephenson"
-  eeg_start: "2022"
+  group_start: "2022"
   papers_name: "NP Stephenson"
   
 - title: "Ming Khan"
@@ -11,7 +11,7 @@
   sortby: "Kahn Ming"
   image: "people/ming_khan.png"
   path: "https://www.zoo.cam.ac.uk/directory/ming-khan"
-  eeg_start: "2022"
+  group_start: "2022"
   papers_name: "TM Khan"
   
 - title: "Aramish Fatima"
@@ -19,5 +19,5 @@
   sortby: "Fatima Aramish"
   image: "people/aramish_fatima.jpg"
   path: "https://www.zoo.cam.ac.uk/directory/aramish-fatima"
-  eeg_start: "2023"
+  group_start: "2023"
 

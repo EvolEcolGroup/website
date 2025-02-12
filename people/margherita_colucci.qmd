@@ -3,7 +3,7 @@ title: "Margherita Colucci"
 sortby: "Colucci Margherita"
 subtitle: "Postdoc - Impact of disease in early humans"
 image: margherita_colucci.jpg # this should be a square image 500px by 500px (or possibly 250px by 250px???)
-eeg_start: "2021"
+group_start: "2021"
 papers_name: "M Colucci"
 toc: false
 #resources: 

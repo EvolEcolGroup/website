@@ -5,7 +5,7 @@ subtitle: "Postdoc/PhD student - Your topic in a few words"
 image: empty_profile_icon.png # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
 toc: false
 # gscholar_id: "YOUR_ID" # replace this wiht your id and uncomment
-eeg_start: "2025"
+group_start: "2025"
 papers_name: "AN Other" # if you have multiple names in papers, separated them by semicolon
 
 
