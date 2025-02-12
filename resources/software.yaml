@@ -10,7 +10,7 @@
 `tidymodels` framework. The advantage of `tidymodels` is that the model syntax and the results
 returned to the user are standardised, thus providing a coherent interface to
 modelling."
-  path: "https://evolecolgroup.github.io/pastclim/"
+  path: "https://evolecolgroup.github.io/tidysdm/"
   categories: [R, SDM]
   image: "img/tidysdm_logo.png"
   date: 1/1/2024
