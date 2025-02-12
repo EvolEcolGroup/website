@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/research.html",
-    "items": []
-  },
-  {
     "listing": "/resources.html",
     "items": []
   },
@@ -25,5 +21,9 @@
       "/people/paul_whitelaw.html",
       "/people/zhe_xue.html"
     ]
+  },
+  {
+    "listing": "/research.html",
+    "items": []
   }
 ]
