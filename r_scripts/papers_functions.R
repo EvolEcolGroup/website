@@ -104,13 +104,13 @@ pubs_format_publications <- function (pubs, author.name = NULL)
 #' of authors to highlight, and return a fully formatted bibliography
 #' 
 #' @param pubs a data.frame as produced by `download_pubs_gscholar`
-#' @param highlight_authors either a single string (for a single author), or 
-#' a data.frame of authors details. The key columns are papers name (which can
+#' @param authors_metadata either a single string (for a single author), or 
+#' a data.frame of authors details. The key column is papers_name (which can
 #' consist of multiple names, separated by a ;, in the format AN Other)
 #' @param with_url_link if TRUE, include a link to the publication
 #' @returns a full bibliography as a single string
 
-format_publication_list <- function(pubs, authors_highlight, with_url_link = TRUE) {
+format_publication_list <- function(pubs, authors_metadata, with_url_link = TRUE) {
   pubs2 <- pubs %>% strsplit(x = .$author, split = ",")
   pubs$author <- lapply(pubs2, function(x) {
     x <- scholar:::swap_initials(x)
@@ -120,20 +120,28 @@ format_publication_list <- function(pubs, authors_highlight, with_url_link = TRU
   })
   # now highlight the authors
   # if we have a single author
-  if (inherits(authors_highlight, "character")){
-    author.name2 <- scholar:::swap_initials(authors_highlight)
+  if (inherits(authors_metadata, "character")){
+    author.name2 <- scholar:::swap_initials(authors_metadata)
     pubs$author <- gsub(author.name2, paste0("**", author.name2, "**"), pubs$author)
   } else { # if we have multiple authors
-    # TODO if we have multiple names in the same line, create new lines with unique names
-    
-    
-    for (i in seq_len(nrow(authors_highlight))){ # for each author
-      if (!is.na(authors_highlight$papers_name[i])){ # skip if there is no name for this group member
-        author.name2 <- scholar:::swap_initials(authors_highlight$papers_name[i])
-        start_year <- as.integer(authors_highlight$group_start[i])
-        end_year <- as.integer(authors_highlight$papers_end[i])
+    # if we have multiple names in the same line, create new lines with unique names
+    semicolon_index <- grep(";", authors_metadata$papers_name)
+    # if there is a semicolon in the papers_name, split the string by semicolon and create multiple rows for each author
+    if (length(semicolon_index) > 0) {
+      authors_metadata <- authors_metadata %>%
+        mutate(papers_name = strsplit(papers_name, ";")) %>%
+        tidyr::unnest(papers_name)
+    }
+    # remove leading and trailing whitespaces
+    authors_metadata$papers_name <- trimws(authors_metadata$papers_name)    
+
+    for (i in seq_len(nrow(authors_metadata))){ # for each author
+      if (!is.na(authors_metadata$papers_name[i])){ # skip if there is no name for this group member
+        author.name2 <- scholar:::swap_initials(authors_metadata$papers_name[i])
+        start_year <- as.integer(authors_metadata$group_start[i])
+        end_year <- as.integer(authors_metadata$papers_end[i])
         pubs$author[(pubs$year >= start_year) & (pubs$year <= end_year)] <-
-          gsub(author.name2, paste0("**", author.name2, "**"),pubs$author[(pubs$year >= start_year) & (pubs$year <= end_year)])
+          gsub(author.name2, paste0("**", author.name2, "**"),pubs$author[(pubs$year >= start_year) & (pubs$year <= end_year)], fixed = TRUE)
       }
       
     }
