@@ -58,7 +58,7 @@ write.csv(qmd_data,"./papers/people_metadata.csv")
 for (i in seq_len(nrow(qmd_data))){
   if (!is.na(qmd_data$gscholar_id[i])){
     # read the group publications already available
-    group_pubs <- read.csv("papers/eeg_pubs.csv", stringsAsFactors = FALSE)
+    group_pubs <- read.csv("papers/group_pubs.csv", stringsAsFactors = FALSE)
     author_id <- qmd_data$gscholar_id[i]
     # get the full list of publications
     new_pubs <- scholar::get_publications(author_id)
@@ -87,7 +87,7 @@ for (i in seq_len(nrow(qmd_data))){
       if (nrow(new_pubs) > 0){
         group_pubs <- dplyr::bind_rows(group_pubs, new_pubs)
         # update the group publications csv
-        write.csv(group_pubs, "papers/eeg_pubs.csv", row.names = FALSE)
+        write.csv(group_pubs, "papers/group_pubs.csv", row.names = FALSE)
       }
     }
   }

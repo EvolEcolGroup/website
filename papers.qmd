@@ -16,7 +16,7 @@ go to their profile on the [People page](./people.html) and follow their Google 
 #| echo: false
 
 # source("./r_scripts/papers_functions.R")
-# group_pubs <- read.csv("papers/eeg_pubs.csv", stringsAsFactors = FALSE)
+# group_pubs <- read.csv("papers/group_pubs.csv", stringsAsFactors = FALSE)
 # people_metadata <- read.csv("papers/people_metadata.csv")
 # format_publication_list(group_pubs, people_metadata) |> cat(sep='\n\n')
 

@@ -9,16 +9,24 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-This quick document provides a few examples of how to clean up publication data. 
+This short document provides a few examples of how to clean up publication data. An easy (but less preferred) way to clean up the bibliography is to manually edit the csv file. This can be done in Excel or any other spreadsheet software, or you can do it programmatically with the code below. The complication is that papers are stored in two places, in `papers/group_pubs.csv` and in `people/NAME_SURNAME_pubs.csv` for any of the individual authors. The former is the one that is used to generate the bibliography on the website. So, unless you are using the individual publication list for something else, you can just edit the group publication list.
+The alternative is that you edit the publication directly on Google Scholar, and then use the code below to update a given publication.
+However, note that it will only work if the publication for the group csv was taken from your list of publications on Google Scholar. If it was taken from another author list, the update will not work (Google Scholar treats the same publication for different authors as different publications, with different `pubid` values and so edits on your version will not spread). In that case, you can ask the other author to update their publication list, or you can manually edit the group publication list.
+
+# Manually editing the csv
+
+A quick example of how to clean up a publication list. First, load the data
+
+
 ```{r}
 csv_path <- "../people/andrea_manica_pubs.csv"
 pubs <- read.csv(csv_path, stringsAsFactors = FALSE)
 nrow(pubs)
 ```
 
-Find a paper with a given pattern in a title and remove it
+Find a paper with a given pattern in a title and, for this example, remove it
 ```{r}
-pattern <- "The influence of reproductive mode"
+pattern <- "The ecology of unicorns"
 pubs <- pubs[!grepl(pattern, pubs$title, ignore.case = TRUE), ]
 nrow(pubs)
 ```
@@ -26,4 +34,27 @@ nrow(pubs)
 Now save it to a new file
 ```{r}
 write.csv(pubs, csv_path, row.names = FALSE)
+```
+
+# Using google scholar
+
+Once you have updated a publication on Google Scholar, you can use the code below to update the publication. This will always work
+on your publication list, but for group publications it will ONLY work if the publication was taken from your list of publications on Google Scholar.
+
+First, load the list and find the paper you want to update
+```{r}
+csv_path <- "../papers/group_pubs.csv"
+pubs <- read.csv(csv_path, stringsAsFactors = FALSE)
+pattern <- "Demographic history and genetic variation"
+pubs <- pubs[grepl(pattern, pubs$title, ignore.case = TRUE), ]
+pubs
+```
+
+Make sure that you only have one paper with that title, otherwise the update will not work. If you have more than one, you will need to
+manually filter the `pubs` object to only contain the publication you want to update.
+
+Now, update the publication
+```{r}
+pubs_details <- get_publication_data_extended_title(id = pubs$id, pub_id = pubs$pubid)
+pubs_details_reformat <- data.frame(title = pubs_details$Title, authors = pubs_details$authors, year = pubs_details$year, journal = pubs_details$journal, volume = pubs_details$volume, pages = pubs_details$pages, url = pubs_details$url, stringsAsFactors = FALSE))
 ```

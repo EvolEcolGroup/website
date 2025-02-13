@@ -5,9 +5,9 @@ date-format: 'MMMM,<br>YYYY'
 ---
 ![Word cloud from the titles of our publications](./img/word_cloud_25.webp){fig-alt="Word cloud from the titles of our publications"}
 
-This is a list of our papers, with group members in bold. If you are interested in the publications authored by a specific group member,
-go to their profile on the [People page](./people.html) and follow their Google Scholar link. The {{< fa link>}} gives a link to the
-original paper.
+This is a list of our papers, with group members in bold; click on the {{< fa link>}} icon after each paper for a link to the
+original publication. If you are interested in the publications authored by a specific group member,
+go to their profile on the [People page](./people.html) and follow their Google Scholar link.
 
 ----
 
@@ -16,7 +16,7 @@ original paper.
 #| echo: false
 
 source("./r_scripts/papers_functions.R")
-group_pubs <- read.csv("papers/eeg_pubs.csv", stringsAsFactors = FALSE)
+group_pubs <- read.csv("papers/group_pubs.csv", stringsAsFactors = FALSE)
 people_metadata <- read.csv("papers/people_metadata.csv")
 format_publication_list(group_pubs, people_metadata) |> cat(sep='\n\n')
 
