@@ -15,12 +15,12 @@ website:
   favicon: img/favicon.png
   google-analytics: "G-M83FN53S91"
   
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Alert** - Registrations for the EMBO Population genomics course are open, deadline 24th February. [More info](https://meetings.embo.org/event/25-pop-genomics)"
-    type: primary
-    position: below-navbar
+  # announcement: 
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**Alert** - Registrations for the EMBO Population genomics course are open, deadline 24th February. [More info](https://meetings.embo.org/event/25-pop-genomics)"
+  #   type: primary
+  #   position: below-navbar
   
   
   

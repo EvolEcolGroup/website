@@ -5,8 +5,8 @@ date-format: 'MMMM,<br>YYYY'
 ---
 ![Word cloud from the titles of our publications](./img/word_cloud_25.webp){fig-alt="Word cloud from the titles of our publications"}
 
-This page is still work in progress. It should provide a semi-complete list of papers published by our
-group. If you are interested in the publications authored by a specific group member,
+This is a list of our papers, with group members in bold; click on the {{< fa link>}} icon after each paper for a link to the
+original publication. If you are interested in the publications authored by a specific group member,
 go to their profile on the [People page](./people.html) and follow their Google Scholar link.
 
 ----
@@ -15,11 +15,11 @@ go to their profile on the [People page](./people.html) and follow their Google 
 #| results: asis
 #| echo: false
 
-# source("./r_scripts/papers_functions.R")
-# group_pubs <- read.csv("papers/group_pubs.csv", stringsAsFactors = FALSE)
-# people_metadata <- read.csv("papers/people_metadata.csv")
-# format_publication_list(group_pubs, people_metadata) |> cat(sep='\n\n')
+# update the group publication list
+source("./r_scripts/update_gscholar_downloads.R")
 
-scholar::format_publications("v8V058QAAAAJ") |> cat(sep='\n\n')
+group_pubs <- read.csv("papers/group_pubs.csv", stringsAsFactors = FALSE)
+people_metadata <- read.csv("papers/people_metadata.csv")
+format_publication_list(group_pubs, people_metadata) |> cat(sep='\n\n')
 ```
 
