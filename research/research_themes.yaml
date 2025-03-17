@@ -1,14 +1,14 @@
 - title: "**Movement decisions**"
   subtitle: "How do animals change their movement decisions when facing changing environemnts? Using **tracking data**, we study their strategies through space and time."
   path: "research.html#individual-responses-to-changing-environments"
-  image: "img/seabird_banner.jpg"
+  image: "img/seabird_banner_02.jpg" # credit: Martin & Ondrej Pelanek, www.phototrip.cz
   sortby: "1"
   date: 1/1/2023
 
 - title: "**Range changes and adaptation**"
   subtitle: "How do animals respond to large scale climatic change? With **species distribution models** and **population genetics**, we investigate the dynamics of range changes and adaptation to new environments."
   path: "research.html#metapopulation-range-dynamics-and-their-consequences"
-  image: "img/leopard_banner.jpg"
+  image: "img/leopard_banner_02.jpg"
   sortby: "2"
   date: 1/1/2024
 

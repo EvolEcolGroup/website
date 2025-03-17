@@ -29,6 +29,12 @@ about:
     - icon: github
       text: GitHub
       href: https://github.com/OndraPelanek
+    - icon: link
+      text: Website
+      href: https://www.phototrip.cz/
+    - icon: envelope
+      text: Email
+      href: "mailto:op319@cam.ac.uk"
 ---
 
 :::{#person-profile}
@@ -37,4 +43,6 @@ about:
 
 I am a PhD student at the Evolutionary Ecology Group at Cambridge. My research focuses on the responses of large African mammals—Earth's last assemblage of diverse megafauna—to past climate change, and on understanding their ecology, biogeography and evolution.
 
-Previously, I completed my MSci in Biological Sciences at the University College London, where I was focusing on the butterfly responses to anthropogenic climate change and the impact of biotic interactions on species geographic range size.
+Previously, I earned an MSci in Biological Sciences from University College London, where I studied butterfly responses to anthropogenic climate change and the role of biotic interactions in shaping species' geographic range sizes.
+
+Beyond research, I am a keen wildlife photographer and traveler.
