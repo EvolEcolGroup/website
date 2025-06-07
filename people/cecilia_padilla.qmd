@@ -15,7 +15,7 @@ about:
   links: # this are optional, use the ones that you are interested in
     - icon: link
       text: Website
-      href: https://sites.google.com/view/ceciliapadillaiglesias/
+      href: https://ceciliapad.github.io/web/
     - icon: link
       text: Dept. of Zoology, Cambridge
       href: https://www.zoo.cam.ac.uk/directory/cecilia-padilla-iglesias
