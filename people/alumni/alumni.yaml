@@ -311,6 +311,12 @@
   destination: "Data Scientist at the Center for Ocean Solutions, Stanford University, US"
   papers_name: "S Nakayama"
   
+- title: "Ming Khan"
+  subtitle: "PhD student (cosupervised by Emily Mitchell)"
+  destination: "Postdoc in Germany"
+  sortby: "Kahn Ming"
+  group_start: "2022"
+  papers_name: "TM Khan"
 
 # - title: "Name Surname"
 #  subtitle: "Postdoc"

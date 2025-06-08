@@ -32,10 +32,15 @@ To add a resource (software, data, etc.) to the website, please follow these ste
 6) Commit your changes and submit a pull request.
 
 
-## To update the group publications (not functional yet!)
-We need to create a system where publications can be added to the group website.
-Currently, we simply fetch the full set of Andrea's publications from Google Scholar.
-We need to create a system to highlight all group members' names.
+## To update the group publications
+Publications are automatically updated once a week, using the Google Scholar IDs
+from individual webpages. Individual publications are stored within the `people`
+folder in a .csv file with the `name_surname.csv` pattern. Publications from
+the period in the group are collated under `/papers/group_pubs.csv`.
+Highlighting for individual group members in the publication list is based on
+their time in the group, as gathered from their personal page or under
+`/people/alumni/alumni.yml`. If you need to edit details of a paper, that can
+be done directly in the csv files.
 
 ## Notes
 The website uses the extension `fontawesome`. This allows the inclusion of
