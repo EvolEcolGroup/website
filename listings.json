@@ -6,6 +6,7 @@
       "/people/nina_baranduin.html",
       "/people/evie_carter.html",
       "/people/margherita_colucci.html",
+      "/people/anahit_hovhannisyan.html",
       "/people/james_lea.html",
       "/people/michela_leonardi.html",
       "/people/cecilia_padilla.html",
@@ -19,11 +20,11 @@
     ]
   },
   {
-    "listing": "/resources.html",
+    "listing": "/research.html",
     "items": []
   },
   {
-    "listing": "/research.html",
+    "listing": "/resources.html",
     "items": []
   }
 ]
