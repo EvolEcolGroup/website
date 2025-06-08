@@ -62,6 +62,10 @@ for (i in seq_len(nrow(qmd_data))){
     author_id <- qmd_data$gscholar_id[i]
     # get the full list of publications
     new_pubs <- scholar::get_publications(author_id)
+    if (!inherits(new_pubs, "data.frame") || nrow(new_pubs) == 0){
+      message(paste0("No publications found for ", qmd_data$papers_name[i], " (", author_id, ")"))
+      next
+    }
     # read their previous publications (if they exist)
     if (file.exists(qmd_data$file_csv[i])){
       old_pubs <- read.csv(qmd_data$file_csv[i], stringsAsFactors = FALSE)
