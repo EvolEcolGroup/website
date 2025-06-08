@@ -1,0 +1,44 @@
+---
+title: "Anahit Hovhannisyan"
+sortby: "Hovhannisyan Anahit" # Note it is SURNAME first!
+subtitle: "Postdoc Marie Curie Fellow - Population genomics of Armenians"
+image: anahit_hovhannisyan.png # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
+toc: false
+# gscholar_id: "YOUR_ID" # replace this wiht your id and uncomment
+group_start: "2018"
+papers_name: "A Hovhannisyan" # if you have multiple names in papers, separated them by semicolon
+
+
+#resources: 
+#  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
+about:
+  id: person-profile
+  template: jolla
+  links:  # this are optional, use the ones that you are interested in (you need at least one, or you need to commone out this line as well)
+    - icon: link
+      text: Trinity College, Dublin
+      href: https://www.tcd.ie/Genetics/molpopgen/anahit.php
+#   - icon: file-earmark-text
+#     text: vitae
+#     href: ./people/NAME_SURNAME_cv.pdf
+#    - icon: mortarboard
+#      text: GScholar
+#      href: https://scholar.google.com/citations?user=YOUR_ID&hl=en
+#    - icon: linkedin
+#      text: LinkedIn
+#      href: https://www.linkedin.com/in/YOUR_ID
+#    - icon: twitter
+#      text: twitter
+#      href: https://www.twitter.com/YOUR_ID
+#    - text: "{{< fa brands bluesky >}} BlueSky"
+#      href: https://bsky.app/profile/YOUR_ID
+
+---
+
+:::{#person-profile}
+:::
+
+I am a Marie Curie Research Fellow at Trinity College, Dublin, and a visiting
+postdoc at the Department of Zoology, University of Cambridge.
+
+My research area is in evolutionary and population genomics. In particular, I am interested in studying evolutionary processes that have shaped the genetic composition and genetic diversity of populations while leveraging the genomics data from both modern and ancient samples. One of my main research topics is the reconstruction of the demographic history and study of the genetic makeup of Armenians, a population historically inhabiting the region in West Asia known as the Armenian Highland. This area has played a key role in the major historical and prehistorical migrations. My current project is focused on applying a powerful ancient genomics approach to study selection and origins of disease-causing genetic variants in the Armenian Highland. I am also actively involved in the archaeological excavations in Armenia. 

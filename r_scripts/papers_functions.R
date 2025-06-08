@@ -79,7 +79,7 @@ pubs_get_all_urls <- function(pubs, author_id, delay = 0.8) {
 #' 
 pubs_format_publications <- function (pubs, author.name = NULL) 
 {
-  pubs2 <- pubs %>% strsplit(x = .$author, split = ",")
+  pubs2 <- strsplit(x = pubs$author, split = ",")
   pubs$author <- lapply(pubs2, function(x) {
     x <- scholar:::swap_initials(x)
     x[length(x)] <- paste0("& ", x[length(x)])
@@ -111,7 +111,7 @@ pubs_format_publications <- function (pubs, author.name = NULL)
 #' @returns a full bibliography as a single string
 
 format_publication_list <- function(pubs, authors_metadata, with_url_link = TRUE) {
-  pubs2 <- pubs %>% strsplit(x = .$author, split = ",")
+  pubs2 <- strsplit(pubs$author, split = ",")
   pubs$author <- lapply(pubs2, function(x) {
     x <- scholar:::swap_initials(x)
     x[length(x)] <- paste0("& ", x[length(x)])

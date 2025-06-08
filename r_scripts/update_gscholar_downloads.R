@@ -67,6 +67,9 @@ for (i in seq_len(nrow(qmd_data))){
       old_pubs <- read.csv(qmd_data$file_csv[i], stringsAsFactors = FALSE)
       # find the new publications
       new_pubs <- new_pubs[!new_pubs$pubid %in% old_pubs$pubid,]
+      # the cid column can end up formatted in strange way, cast to character
+      old_pubs$cid <- as.character(old_pubs$cid)
+      new_pubs$cid <- as.character(new_pubs$cid)
     } else { # if there are no previous publications, create an empty data.frame
       old_pubs <- new_pubs[0,]
     }
@@ -85,6 +88,9 @@ for (i in seq_len(nrow(qmd_data))){
       # and they dont' exist in group publications (based on title)
       new_pubs <- dplyr::anti_join(new_pubs, group_pubs, by = "title")
       if (nrow(new_pubs) > 0){
+        # the cid column can end up formatted in strange way, cast to character
+        old_pubs$cid <- as.character(old_pubs$cid)
+        new_pubs$cid <- as.character(new_pubs$cid)
         group_pubs <- dplyr::bind_rows(group_pubs, new_pubs)
         # update the group publications csv
         write.csv(group_pubs, "papers/group_pubs.csv", row.names = FALSE)
