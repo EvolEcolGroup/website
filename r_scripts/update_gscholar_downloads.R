@@ -63,7 +63,7 @@ for (i in seq_len(nrow(qmd_data))){
     # get the full list of publications
     new_pubs <- scholar::get_publications(author_id)
     if (!inherits(new_pubs, "data.frame") || nrow(new_pubs) == 0){
-      message(paste0("No publications found for ", qmd_data$papers_name[i], " (", author_id, ")"))
+      # message(paste0("No publications found for ", qmd_data$papers_name[i], " (", author_id, ")"))
       next
     }
     # read their previous publications (if they exist)
