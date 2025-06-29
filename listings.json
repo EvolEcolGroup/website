@@ -4,10 +4,6 @@
     "items": []
   },
   {
-    "listing": "/resources.html",
-    "items": []
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/people/andrea_manica.html",
@@ -26,5 +22,9 @@
       "/people/paul_whitelaw.html",
       "/people/zhe_xue.html"
     ]
+  },
+  {
+    "listing": "/resources.html",
+    "items": []
   }
 ]
