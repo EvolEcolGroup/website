@@ -11,8 +11,8 @@ go to their profile on the [People page](./people.html) and follow their Google 
 
 ----
 
-```{r bibArticle}
-#| results: asis
+```{r update_bibArticle}
+#| results: hide
 #| echo: false
 
 # update the group publication list
@@ -20,6 +20,12 @@ source("./r_scripts/update_gscholar_downloads.R")
 
 group_pubs <- read.csv("papers/group_pubs.csv", stringsAsFactors = FALSE)
 people_metadata <- read.csv("papers/people_metadata.csv")
+```
+
+```{r bibArticle}
+#| results: asis
+#| echo: false
+
 format_publication_list(group_pubs, people_metadata) |> cat(sep='\n\n')
 ```
 
