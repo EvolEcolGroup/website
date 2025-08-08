@@ -14,6 +14,8 @@ website:
   description: "Evolutionary Ecology Group at Cambridge University"
   favicon: img/favicon.png
   google-analytics: "G-M83FN53S91"
+  cookie-consent:
+    type: express
   
   # announcement: 
   #   icon: info-circle
