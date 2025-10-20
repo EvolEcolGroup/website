@@ -23,5 +23,5 @@
   description: "A consistent dataset of the biodiversity footprints (species richness, threatened species richness, and range rarity) of pasture and 175 crops at the global and national level., from Beyer and Manica 2021"
   path: "https://www.sciencedirect.com/science/article/pii/S2352340921002663"
   categories: [biodiversity, agriculture]
-  image: "img/agriculture.jpg" # from https://www.flickr.com/photos/cimmyt/4863659535 on Share Alike licence
+  image: "img/agriculture_02.jpg" # credit: Martin & Ondrej Pelanek, www.phototrip.cz
   date: 1/6/2021

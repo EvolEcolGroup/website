@@ -16,18 +16,17 @@ Design by [Michela Leonardi](https://michelaleonardi.netsons.org/),
 licence [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 
-![join_us_banner.jpg](join_us_banner.jpg "join_us_banner")
+![join_us_banner_02.jpg](join_us_banner.jpg "join_us_banner_02")
 
-[Photo](https://www.pexels.com/photo/parrots-perched-on-brown-wooden-surface-1599452/) 
-by [Magda Ehlers](https://www.pexels.com/@magda-ehlers-pexels/) 
-on [pexels](https://www.pexels.com/). 
-Free for commercial and non-commercial use, with or without 
-attribution ([licence](https://www.pexels.com/license/)). 
+Photo by [Martin & Ondrej Pelanek](https://www.phototrip.cz/). 
+This image is provided exclusively for use by the group, free of charge, for non-commercial and research-related purposes.
+Licence: Custom – Free for internal group use, no redistribution without permission.
 
 
-![leopard_banner.jpg](leopard_banner.jpg "leopard banner")
-[Photo]("https://s3.animalia.bio/animals/photos/full/original/62WplVyX4AKxuNRTGKDi.webp")
-Share-Alike Licence
+![leopard_banner_02.jpg](leopard_banner_02.jpg "leopard banner")
+Photo by [Martin & Ondrej Pelanek](https://www.phototrip.cz/). 
+This image is provided exclusively for use by the group, free of charge, for non-commercial and research-related purposes.
+Licence: Custom – Free for internal group use, no redistribution without permission.
 
 
 Add information
@@ -97,13 +96,12 @@ Picture by [Michela Leonardi](https://michelaleonardi.netsons.org/),
 licence [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 
-![seabird_banner.jpg](seabird_banner.jpg "seabird banner")
+![seabird_banner_02.jpg](seabird_banner_02.jpg "seabird banner")
 
-[Photo](https://unsplash.com/photos/white-bird-flying-in-the-sky-dfdJVbVQYak) 
-by [Phil Botha](https://unsplash.com/@philbotha) 
-on [unsplash](https://unsplash.com/photos). 
-Free for commercial and non-commercial use, with or without attribution: 
-[licence](https://unsplash.com/license). 
+[Photo](https://www.phototrip.cz/image/albatros-sanforduv-diomedea-sanfordi-northern-royal-albatros7657?pid=679) 
+by [Martin & Ondrej Pelanek](https://www.phototrip.cz/). 
+This image is provided exclusively for use by the group, free of charge, for non-commercial and research-related purposes.
+Licence: Custom – Free for internal group use, no redistribution without permission.
 
 
 ![website_banner_neanderthal.png](website_banner_neanderthal.png "website banner neanderthal")
@@ -125,10 +123,11 @@ Owner: [Andrea Manica](../people/andrea_manica.html).
 ### Square pictures
 
 
-![agriculture.jpg](agriculture.jpg "agriculture")
+![agriculture_02.jpg](agriculture_02.jpg "agriculture")
 
-[Photo](https://www.flickr.com/photos/cimmyt/4863659535)
-Share Alike licence
+Photo by [Martin & Ondrej Pelanek](https://www.phototrip.cz/). 
+This image is provided exclusively for use by the group, free of charge, for non-commercial and research-related purposes.
+Licence: Custom – Free for internal group use, no redistribution without permission.
 
 
 ![climate_maps.jpg](climate_maps.jpg "climate maps")
