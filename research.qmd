@@ -85,6 +85,7 @@ contemporary species, including our own.
 ## Human evolutionary ecology
 
 <img src="./img/bones_banner.png" style="height: 100%; width: 100%; object-fit: contain"/>
+<p style="text-align: center; font-size: 0.6em; color: #999999;"> Credit: Eppie Jones</p>
 
 When did humans come out of Africa? Why were some moments more
 favourable than other? What drove cultural innovations in hunter
@@ -107,6 +108,7 @@ discipline.
 ## Tools to interrogate big data through space and time
 
 <img src="./img/resources_banner.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
+<p style="text-align: center; font-size: 0.6em; color: #999999;"> Credit: Michela Leonardi</p>
 
 Our work is highly interdisciplinary, and often uses huge datasets from
 multiple sources. This forces us to build efficient computational
