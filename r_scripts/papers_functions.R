@@ -10,7 +10,7 @@ suppressPackageStartupMessages(library(dplyr))
 #' @return A data frame with all authors of the publications
 #' 
 
-pubs_get_all_authors <- function(pubs, author_id, delay = 0.8) {
+pubs_get_all_authors <- function(pubs, author_id, delay = 1) {
   # make sure that we don't have duplicated pubids
   pubs_unique <- dplyr::distinct(pubs, pubid, .keep_all = TRUE)
   df1 <- pubs_unique %>%
@@ -21,6 +21,19 @@ pubs_get_all_authors <- function(pubs, author_id, delay = 0.8) {
   if (df2 %>% nrow() == 0) {
     return(df1)
   }
+  #all authors
+  all_authors <- NULL
+  for (i_pub in seq_len(nrow(df2))) {
+    delay_i <- sample(seq(delay - 0.5, delay + 0.5, by = 0.001), 
+                      1)
+    Sys.sleep(delay_i)
+    authors_i <- scholar::get_complete_authors(df2$id[i_pub], 
+                                              df2$pubid[i_pub], initials = TRUE)
+    all_authors <- c(all_authors, authors_i)
+  }
+  
+  
+  
   df3 <- df2 %>%
     dplyr::mutate(complete_authors = purrr::map2(id, pubid, scholar::get_complete_authors, delay = 0.8, initials = TRUE))
   df4 <- df3 %>%

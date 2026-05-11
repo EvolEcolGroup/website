@@ -41,7 +41,7 @@ alumni_df <- df <- do.call(dplyr::bind_rows, lapply(alumni_yaml, as.data.frame))
 qmd_data <- dplyr::bind_rows(qmd_data, cosup_df, alumni_df)
 
 # if missing papers_end, use this year
-qmd_data$papers_end[is.na(qmd_data$papers_end)] <- 2025 # ideally do this dynamically
+qmd_data$papers_end[is.na(qmd_data$papers_end)] <- 2026 # ideally do this dynamically
 
 # if missing group_start, use the min of group_start
 # this is a hack until all group_start dates have been filled
@@ -55,8 +55,10 @@ write.csv(qmd_data,"./papers/people_metadata.csv")
 ################################################################################
 
 # loop over group members and, for those who have a gscholar_id, update their publications
-for (i in seq_len(nrow(qmd_data))){
-  if (!is.na(qmd_data$gscholar_id[i])){
+# for (i in seq_len(nrow(qmd_data))){
+#  if (!is.na(qmd_data$gscholar_id[i])){
+# For the moment, just process Andrea's papers, to avoid hitting google scholar too much while testing    
+    i <-  which(qmd_data$papers_name == "A Manica")
     # read the group publications already available
     group_pubs <- read.csv("papers/group_pubs.csv", stringsAsFactors = FALSE)
     author_id <- qmd_data$gscholar_id[i]
@@ -69,8 +71,15 @@ for (i in seq_len(nrow(qmd_data))){
     # read their previous publications (if they exist)
     if (file.exists(qmd_data$file_csv[i])){
       old_pubs <- read.csv(qmd_data$file_csv[i], stringsAsFactors = FALSE)
-      # find the new publications
-      new_pubs <- new_pubs[!new_pubs$pubid %in% old_pubs$pubid,]
+      # find the new publications (either a new pubid, or if they have a pubid, different journal or year)
+      new_pubs <- new_pubs[!new_pubs$pubid %in%
+                          old_pubs$pubid | 
+                          (new_pubs$pubid %in% old_pubs$pubid & 
+                             (new_pubs$journal != old_pubs$journal[match(new_pubs$pubid, old_pubs$pubid)] | 
+                                new_pubs$year != old_pubs$year[match(new_pubs$pubid, old_pubs$pubid)])),]   
+      # remove old pubs with same id as new pubs
+      old_pubs <- old_pubs[!old_pubs$pubid %in% new_pubs$pubid,]
+      
       # the cid column can end up formatted in strange way, cast to character
       old_pubs$cid <- as.character(old_pubs$cid)
       new_pubs$cid <- as.character(new_pubs$cid)
@@ -100,5 +109,5 @@ for (i in seq_len(nrow(qmd_data))){
         write.csv(group_pubs, "papers/group_pubs.csv", row.names = FALSE)
       }
     }
-  }
-}
+#  }
+#}
