@@ -26,18 +26,12 @@
   image: "people/cassandra_gunasekaram.jpg"
   group_start: "2025"
 
-- title: "Dominik Jud"
-  subtitle: "Visiting PhD student (Based in Zurich) - Evolution of language"
-  sortby: "Jud Dominik"
-  image: "people/dominik_jud.png"
-  group_start: "2025"
-  
 - title: "Arthur Matte"
   subtitle: "PhD student (Based in the LeBoeuf Lab) - Evolution of socially transferred materials"
   sortby: "Matte Arthur"
   image: "people/arthur_matte.jpg"
   path: "https://www.zoo.cam.ac.uk/directory/arthur-matte"
-  group_start: "2025"
+  group_start: "2024"
   
 - title: "James McCulloch"
   subtitle: "PhD student (Based at the Sanger Institute) - Population genomics of springtails"
