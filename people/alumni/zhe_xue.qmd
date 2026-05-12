@@ -7,6 +7,7 @@ toc: false
 gscholar_id: "n53QNesAAAAJ"
 papers_name: "Z Xue"
 group_start: "2021"
+destination: "postdoc in the Department of Genetics, Cambridge"
 #papers_name: "AN Other" # if you have multiple names in papers, separated #them by semicolon
 
 
@@ -42,3 +43,5 @@ about:
 I am a PhD student working on using multiple lines of evidence like genomics and environment data to understand the ecological and evolutionary history of different species. I am interested in combining different computational analysis to dissect this complex process.  
 
 Before Cambridge, I received my undergraduate from South China University of Technology and the University of Edinburgh, and my Master degree from the University of Copenhagen.
+
+I have now moved to the department of Genetics for my postdoc [my postdoc](https://www.gen.cam.ac.uk/staff/zhe-xue). 
