@@ -1,7 +1,7 @@
 ---
 title: "Dominik Jud"
 sortby: "Jud Dominik" # Note it is SURNAME first!
-subtitle: "PhD student - Language Evolution and Population History"
+subtitle: "PhD student (based in Zurich) - Language Evolution and Population History"
 image: dominik_jud.png # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
 toc: false
 gscholar_id: "1l9QfeYAAAAJ" # replace this wiht your id and uncomment
