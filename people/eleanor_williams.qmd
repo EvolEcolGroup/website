@@ -1,0 +1,45 @@
+---
+title: "Eleanor Williams"
+sortby: "Williams Eleanor" # Note it is SURNAME first!
+subtitle: "PhD student - Early human evolution in Africa"
+image: eleanor_williams.jpg # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
+toc: false
+# gscholar_id: "YOUR_ID" # replace this wiht your id and uncomment
+group_start: "2025"
+papers_name: "EM Williams" # if you have multiple names in papers, separated them by semicolon
+
+
+#resources: 
+#  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
+about:
+  id: person-profile
+  template: jolla
+  links:  # this are optional, use the ones that you are interested in (you need at least one, or you need to commone out this line as well)
+    - icon: link
+      text: Dept. of Zoology, Cambridge
+      href: https://www.zoo.cam.ac.uk
+#   - icon: file-earmark-text
+#     text: vitae
+#     href: ./people/NAME_SURNAME_cv.pdf
+#    - icon: mortarboard
+#      text: GScholar
+#      href: https://scholar.google.com/citations?user=YOUR_ID&hl=en
+#    - icon: linkedin
+#      text: LinkedIn
+#      href: https://www.linkedin.com/in/YOUR_ID
+#    - icon: twitter
+#      text: twitter
+#      href: https://www.twitter.com/YOUR_ID
+#    - text: "{{< fa brands bluesky >}} BlueSky"
+#      href: https://bsky.app/profile/YOUR_ID
+
+---
+
+:::{#person-profile}
+:::
+
+I am a PhD student at the Department of Archaeology cosupervised by Alistair Key and Andrea Manica in Zoology.
+
+I am interested in human evolution in Africa prior to ~1 Ma. My MPhil thesis focussed on the relationship between H. erectus s.l., the Acheulean, and volcanic eruptions in eastern Africa. Subsequently, I have worked in research teams focussed on Olduvai Gorge in Tanzania, and West Turkana in Kenya, and published on both the African Oldowan and British Palaeolithic.
+
+My PhD research focuses on the relationship between hominin evolution and climate/ecology across Africa prior to 1 Ma.

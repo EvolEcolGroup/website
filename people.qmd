@@ -10,7 +10,8 @@ listing:
     type: grid
     image-height: 250px
 #    image-lazy-loading: true
-    grid-columns: 4
+    grid-columns: 3
+    page-size: 30
     fields: [image, title, subtitle]
     grid-item-align: center
     sort: sortby

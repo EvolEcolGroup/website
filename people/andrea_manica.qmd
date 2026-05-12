@@ -28,12 +28,19 @@ about:
     - icon: link
       text: Dept. of Zoology, Cambridge
       href: https://www.zoo.cam.ac.uk
+    - icon: link
+      text: HUMAN ORIGINS, Tübingen
+      href: https://uni-tuebingen.de/en/research/core-research/cluster-of-excellence-human-origins/
 ---
 
 :::{#person-profile}
 :::
 
 I am an evolutionary ecologist interested in understanding **how species respond and adapt to changing environments**. Work in my group spans from individual strategies (foraging strategies, group living) to evolutionary responses over long time scales (genetic adaptation, speciation). We specialise in using multiple lines of evidence to reconstruct past change, integrating climate reconstructions, paleontological and ecological datasets with genetic data to **understand the drivers and mechanisms that led to species changing their geographic ranges and their niches**. [Read more about our work ...](./research.html)
+
+Whilst my group is located in the Department of Zoology at Cambridge (UK), I am also
+an external PI for the HUMAN ORIGINS Cluster of Excellence hosted at the University
+of Tübingen (Germany).
 
 **Keywords:** Population genetics, Selection and Adaptation, Species Distribution Models, Palaeoclimate reconstructions, Tracking data
 
