@@ -41,6 +41,12 @@ listing:
 Read about [opportunities to do research with us](./join_us.html).
 :::
 
+## Close collaborators
+Close collaborators with whom with run regular joint hackathons and develop tools together, as
+well as 
+:::{#close-collaborators}
+:::
+
 
 ## Alumni
 
