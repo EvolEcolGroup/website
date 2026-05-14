@@ -42,8 +42,8 @@ Read about [opportunities to do research with us](./join_us.html).
 :::
 
 ## Close collaborators
-Close collaborators with whom with run regular joint hackathons and develop tools together, as
-well as 
+
+Our projects are highly interdiscplinary, and we work with a large number of colleagues. But we also have a few close collaborators with whom we regularly run joint remote hackathons, develop tools together and co-host students and postdocs.
 :::{#close-collaborators}
 :::
 
