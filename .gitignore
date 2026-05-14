@@ -12,3 +12,4 @@ docs/
 people/_template_profile.html
 people/_template_profile_files/
 **/*.quarto_ipynb
+.positai
