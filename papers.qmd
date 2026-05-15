@@ -19,6 +19,11 @@ go to their profile on the [People page](./people.html) and follow their Google 
 
 # update the group publication list
 source("./r_scripts/update_gscholar_downloads.R")
+```
+
+```{r load_data}
+#| results: hide
+#| echo: false
 source("./r_scripts/papers_functions.R")
 source("./r_scripts/update_people_metadata.R")
 group_pubs <- read.csv("people/andrea_manica_pubs.csv")
