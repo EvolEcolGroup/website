@@ -1,7 +1,7 @@
 ---
 title: "Marco Vidal Cordasco"
 sortby: "Vidal Cordasco Marco" # Note it is SURNAME first!
-subtitle: "Marie Curie Fellow - Your topic in a few words"
+subtitle: "Marie Curie Fellow - Human–environment interactions in the Palaeolithic"
 image: marco_vidal_cordasco.jpg # name this file as name_surname.png, same prefix as this file; this should be a square image 250px by 250px
 toc: false
 # gscholar_id: "YOUR_ID" # replace this wiht your id and uncomment

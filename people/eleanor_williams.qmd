@@ -18,6 +18,9 @@ about:
     - icon: link
       text: Dept. of Zoology, Cambridge
       href: https://www.zoo.cam.ac.uk
+    - icon: link
+      text: Dept. of Archaeology, Cambridge
+      href: https://www.arch.cam.ac.uk/
 #   - icon: file-earmark-text
 #     text: vitae
 #     href: ./people/NAME_SURNAME_cv.pdf
