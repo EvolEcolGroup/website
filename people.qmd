@@ -54,7 +54,7 @@ Read about [opportunities to do research with us](./join_us.html).
 
 ## Close collaborators
 
-Our projects are highly interdisciplinary, and we work with a large number of colleagues. But we also have a few close collaborators with whom we regularly develop ideas, tools, run joint remote hackathons, and mutually co-host students and postdocs.
+Our projects are highly interdisciplinary, and we work with a large number of colleagues. But we also have a few groups with whom we regularly develop ideas, tools, run joint remote hackathons, and mutually co-host students and postdocs.
 
 :::{#collaborators}
 :::
