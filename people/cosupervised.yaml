@@ -25,6 +25,7 @@
   sortby: "Gunasekaram Cassandra"
   image: "people/cassandra_gunasekaram.jpg"
   group_start: "2025"
+  paper_name: "C Gunasekaram"
 
 - title: "Arthur Matte"
   subtitle: "PhD student (Based in the LeBoeuf Lab) - Evolution of socially transferred materials"
@@ -32,6 +33,7 @@
   image: "people/arthur_matte.jpg"
   path: "https://www.zoo.cam.ac.uk/directory/arthur-matte"
   group_start: "2024"
+  paper_name: "A Matte"
   
 - title: "James McCulloch"
   subtitle: "PhD student (Based at the Sanger Institute) - Population genomics of springtails"
@@ -45,4 +47,4 @@
   sortby: "Foister Tegan"
   image: "people/tegan_foister.jpg"
   path: "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/geowissenschaften/arbeitsgruppen/geo-und-umweltnaturwissenschaften/geo-und-umweltnaturwissenschaften/biogeologie/arbeitsgruppe/team/dr-tegan-foister/&ved=2ahUKEwjN-fjY2bOUAxVRZ0EAHWxsLt8QFnoECCkQAQ&usg=AOvVaw26f5TEekcFjKa4krx4RGOj"
-  group_start: "2025"
+  group_start: "2026"

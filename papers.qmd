@@ -18,7 +18,7 @@ go to their profile on the [People page](./people.html) and follow their Google 
 #| error: false
 
 # update the group publication list
-#source("./r_scripts/update_gscholar_downloads.R")
+# source("./r_scripts/update_gscholar_downloads.R")
 ```
 
 ```{r load_data}
