@@ -8,6 +8,11 @@ source("./r_scripts/papers_functions.R")
 qmd_files <- list.files("people", pattern = ".qmd$", full.names = TRUE)
 # remove the template file
 qmd_files <- qmd_files[-grep("template", qmd_files)]
+# add qmd files from the alumni directory
+alumni_qmd_files <- list.files("people/alumni", pattern = ".qmd$",
+                                  full.names = TRUE)
+qmd_files <- c(qmd_files, alumni_qmd_files)
+
 # create a data.frame to store the information
 qmd_data <- data.frame(file_csv = paste0(tools::file_path_sans_ext(qmd_files),"_pubs.csv"),
                        gscholar_id = rep(NA, length(qmd_files)),
