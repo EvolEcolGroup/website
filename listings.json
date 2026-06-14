@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/research.html",
-    "items": []
-  },
-  {
     "listing": "/people.html",
     "items": [
       "/people/andrea_manica.html",
@@ -29,6 +25,10 @@
   },
   {
     "listing": "/resources.html",
+    "items": []
+  },
+  {
+    "listing": "/research.html",
     "items": []
   }
 ]
