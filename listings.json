@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/research.html",
+    "items": []
+  },
+  {
+    "listing": "/resources.html",
+    "items": []
+  },
+  {
     "listing": "/people.html",
     "items": [
       "/people/andrea_manica.html",
@@ -22,13 +30,5 @@
       "/people/eleanor_williams.html",
       "/people/alumni/zhe_xue.html"
     ]
-  },
-  {
-    "listing": "/resources.html",
-    "items": []
-  },
-  {
-    "listing": "/research.html",
-    "items": []
   }
 ]
