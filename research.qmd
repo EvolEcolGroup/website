@@ -84,7 +84,7 @@ contemporary species, including our own.
 
 ## Human evolutionary ecology
 
-<img src="./img/bones_banner.png" style="height: 100%; width: 100%; object-fit: contain"/>
+<img src="./img/website_banner_neanderthal.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
 <p style="text-align: center; font-size: 0.6em; color: #999999;"> Credit: Eppie Jones</p>
 
 When did humans come out of Africa? Why were some moments more
