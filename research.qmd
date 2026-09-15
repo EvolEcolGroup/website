@@ -85,7 +85,7 @@ contemporary species, including our own.
 ## Human evolutionary ecology
 
 <img src="./img/website_banner_neanderthal.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
-<p style="text-align: center; font-size: 0.6em; color: #999999;"> Credit: Eppie Jones</p>
+<p style="text-align: center; font-size: 0.6em; color: #999999;"> Credit: Michela Leonardi</p>
 
 When did humans come out of Africa? Why were some moments more
 favourable than other? What drove cultural innovations in hunter
@@ -99,7 +99,7 @@ in driving brain and body size change, in shaping the emergence of major
 genetic lineages, and on the evolution of cultural differentiation.
 
 To ask questions about our pasts we often quantitatively combine
-multiple lines of evidence, curating large datasets that synthesize
+multiple lines of evidence, curating large datasets that synthesise
 information over entire regions. By bringing together the signals that
 we can recover from archaeology and genetics (using both modern and
 ancient DNA), we are able to go beyond the limits of each individual
