@@ -32,9 +32,10 @@ about:
 :::
 
 
-I am a biodiversity modeller at the Natural History Museum, London. The aim of my project is to inform ecological restoration in Africa. At the same time, I am a visitor here in EEG where I am finalising the palaeoecological projects that I have carried when I was postdoc in the group.
+I am a postdoc funded under the [FORAGER ERC Synergy](https://www.forager-erc.eu/) project. Its aim is to investigate alternative trajectories for human demographic growth in pre-agricultural societies. My role within it will be to model the ecological niches of key food resources (i.e. prey animal and plant species of interest) in the different study areas.
+At the same time, I am also a part-time biodiversity modeller at the Natural History Museum, London, focussing on reforestation projects. 
 
-In my career, I have been working on various research questions focussing on animals and humans. Here are a few projects I have carried out in recent years:
+In my career, I have been working on various research questions focussing on different species. Here are a few projects I have carried out in recent years:
 
 * Reconstruct ecological niche dynamics through time using archaeological occurrences (e.g. European ungulates, Acheulean)
 *	Development of software to perform large-scale palaeoecological analyses from archaeological data (pastclim, tidysdm)
