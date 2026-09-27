@@ -1,9 +1,5 @@
 [
   {
-    "listing": "/research.html",
-    "items": []
-  },
-  {
     "listing": "/resources.html",
     "items": []
   },
@@ -30,5 +26,9 @@
       "/people/eleanor_williams.html",
       "/people/alumni/zhe_xue.html"
     ]
+  },
+  {
+    "listing": "/research.html",
+    "items": []
   }
 ]
