@@ -4,6 +4,7 @@ sortby: "Whitelaw Paul"
 subtitle: "PhD student - Demography of Antarctic seabirds"
 image: paul_whitelaw.jpg # this should be a square image 250px by 250px
 toc: false
+destination: "Researcher, British Antarctic Survey, UK"
 #resources: 
 #  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
 about:

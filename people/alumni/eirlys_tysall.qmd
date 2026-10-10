@@ -6,6 +6,7 @@ image: eirlys_tysall.jpg # this should be a square image 500px by 500px (or poss
 started: "2021"
 papers_name: "EE Tysall" # if you have multiple names in papers, separated them by semicolon
 toc: false
+destination: "Lecturer, The school of Field Studies, Panama"
 #resources: 
 #  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV
 about:

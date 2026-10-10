@@ -7,8 +7,7 @@ toc: false
 gscholar_id: "n53QNesAAAAJ"
 papers_name: "Z Xue"
 group_start: "2021"
-destination: "postdoc in the Department of Genetics, Cambridge"
-#papers_name: "AN Other" # if you have multiple names in papers, separated #them by semicolon
+destination: "Postdoc in the Department of Genetics, Cambridge, UK"
 
 
 #resources: 
