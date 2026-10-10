@@ -65,6 +65,6 @@ if (!interactive() && sys.nframe() == 0L) {
   }
   update_bib_from_orcid(bib_path      = args[1],
                         orcid         = args[2],
-                        mailto        = if (length(args) >= 3L) args[3] else NULL,
+                        mailto        = if (length(args) >= 3L) args[3] else am315@cam.ac.uk,
                         author_family = if (length(args) >= 4L) args[4] else NULL)
 }
