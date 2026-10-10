@@ -12,3 +12,6 @@ docs/
 people/_template_profile.html
 people/_template_profile_files/
 **/*.quarto_ipynb
+
+# logs and backups from update_bib_from_orcid()
+papers/orcid_sync/
