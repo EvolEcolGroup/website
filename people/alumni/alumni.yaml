@@ -14,7 +14,7 @@
   subtitle: "Postdoc"
   sortby: "Beyer Robert"
   destination: "Marie Curie fellow in Berlin, Germany"
-  papers_name: "R Beyer; RM Beyer" # todo add R Beyer
+  papers_name: "R Beyer; RM Beyer"
 
 - title: "Tommy Clay"
   subtitle: "PhD Student"
@@ -239,7 +239,7 @@
 - title: "Tzo Zen Ang"
   subtitle: "PhD student"
   sortby: "Ang Tzo Zen"
-  destination: "Management Concultant at McKinsey, UK"
+  destination: "Management Consultant at McKinsey, UK"
   group_start: "2006"
   papers_end: "2013" 
   papers_name: "TZ Ang"
