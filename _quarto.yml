@@ -72,6 +72,7 @@ website:
 # do not rerender if nothing has changed
 execute:
   freeze: false
+  cache: false
 
 # formatting details
 format:

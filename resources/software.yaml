@@ -15,12 +15,26 @@ modelling."
   image: "img/tidysdm_logo.png"
   date: 1/1/2024
 
+- title: "`crstools`"
+  description: "Tools to work with map projections in R. Choose the right projection for the job, and visualise the resulting distortion. Georeference data from unknown projections."
+  path: "https://evolecolgroup.github.io/crstools/"
+  categories: [R, SDM, maps]
+  image: "img/crstools_logo.png"
+  date: 1/2/2026
+
 - title: "`tidypopgen`"
   description: "`tidypopgen` provides a tidy grammar of population genetics, facilitating the manipulation and analysis of genetic data."
   path: "https://evolecolgroup.github.io/tidypopgen"
   categories: [R, population genetics]
   image: "img/tidypopgen_logo.png"
   date: 1/1/2025
+
+- title: "`tidygenclust`"
+  description: "`tidygenslucst` provides functions and methods to run genetic clustering in R."
+  path: "https://evolecolgroup.github.io/tidygenclust"
+  categories: [R, population genetics]
+  image: "img/tidygenclust_logo.png"
+  date: 1/6/2025
   
 - title: "`geoGraph`"
   description: "`geoGraph` implements graph approaches for geographic data, allowing to estimate distance costs and find shortest paths on complex geographic graphs."
@@ -28,6 +42,13 @@ modelling."
   categories: [R, population genetics, graph theory]
   image: "img/geograph_logo.png"
   date: 1/1/2020
+  
+- title: "`resrepo`"
+  description: "An R package to manage research respositories in R. It provides a clean structure and tools to manage big data."
+  path: "https://evolecolgroup.github.io/resrepo"
+  categories: [R, reproducible science]
+  image: "img/resrepo_logo.png"
+  date: 1/3/2026
   
 - title: "`mtDNAcombine`"
   description: "An R package to collate mtDNA sequences from NCBI GenBank to generate Bayesian Skyline Plots, as described in Miller & Manica (2021)."

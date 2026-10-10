@@ -14,6 +14,8 @@ go to their profile on the [People page](./people.html) and follow their Google 
 ```{r update_bibArticle}
 #| results: hide
 #| echo: false
+#| warning: false
+#| error: false
 
 # update the metadata on group members (used to highlight them in bold)
 source("./r_scripts/update_people_metadata.R")

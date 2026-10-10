@@ -4,6 +4,7 @@ sortby: "Carter Evie"
 subtitle: "PhD student - Understanding genetic admixture in human populations"
 image: evie_carter.png 
 started: "2023"
+papers_name: "EJ Carter" # if you have multiple names in papers, separated them by semicolon
 toc: false
 #resources: 
 #  - "NAME_SURNAME_cv.pdf" #optional, if you want to share your CV

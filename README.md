@@ -33,6 +33,7 @@ To add a resource (software, data, etc.) to the website, please follow these ste
 
 
 ## To update the group publications
+** This is currently switched off as GScholar blacklists google actions very quickly if too many requests are made**.
 Publications are automatically updated once a week, using the Google Scholar IDs
 from individual webpages. Individual publications are stored within the `people`
 folder in a .csv file with the `name_surname.csv` pattern. Publications from
