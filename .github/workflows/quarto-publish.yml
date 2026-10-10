@@ -45,9 +45,10 @@ jobs:
             any::rmarkdown
             any::knitr
             any::dplyr
-            any::scholar
             any::downlit
             any::xml2
+            any::httr2
+            any::stringi
 
       # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
       - name: Publish to GitHub Pages (and render) 
