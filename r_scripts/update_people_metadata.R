@@ -1,13 +1,17 @@
-suppressPackageStartupMessages(library(dplyr))
-source("./r_scripts/papers_functions.R")
 ################################################################################
 ## collect all metadata about group members present and past
+## (used to highlight group members in the publication list)
 ################################################################################
 
 # get a list of qmd files from the people directory
 qmd_files <- list.files("people", pattern = ".qmd$", full.names = TRUE)
 # remove the template file
 qmd_files <- qmd_files[-grep("template", qmd_files)]
+# add qmd files from the alumni directory
+alumni_qmd_files <- list.files("people/alumni", pattern = ".qmd$",
+                               full.names = TRUE)
+qmd_files <- c(qmd_files, alumni_qmd_files)
+
 # create a data.frame to store the information
 qmd_data <- data.frame(file_csv = paste0(tools::file_path_sans_ext(qmd_files),"_pubs.csv"),
                        gscholar_id = rep(NA, length(qmd_files)),
@@ -41,7 +45,7 @@ alumni_df <- df <- do.call(dplyr::bind_rows, lapply(alumni_yaml, as.data.frame))
 qmd_data <- dplyr::bind_rows(qmd_data, cosup_df, alumni_df)
 
 # if missing papers_end, use this year
-qmd_data$papers_end[is.na(qmd_data$papers_end)] <- 2026 # ideally do this dynamically
+qmd_data$papers_end[is.na(qmd_data$papers_end)] <- as.integer(format(Sys.Date(), "%Y"))
 
 # if missing group_start, use the min of group_start
 # this is a hack until all group_start dates have been filled

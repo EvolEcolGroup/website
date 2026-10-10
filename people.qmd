@@ -59,7 +59,6 @@ Our projects are highly interdisciplinary, and we work with a large number of co
 :::{#collaborators}
 :::
 
-
 ## Alumni
 
 :::{#alumni}
